@@ -7,5 +7,5 @@ We will cover proven patterns such as retrieval-augmented generation, structured
 
 Along the way, we will address the architectural and operational considerations that matter in real systems, including data readiness, security boundaries, performance, observability, and cost management. The goal is to give you a clear and practical roadmap for building AI features that users can trust and that your existing .NET architecture can support.
 
-## Expert Consultation Offer
-https://tinyurl.com/th-offer
+## Schedule Time With Me
+https://trailheadtechnology.com/connect/?t=10-ai-features
