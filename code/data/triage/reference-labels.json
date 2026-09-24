@@ -1,0 +1,38 @@
+{
+  "routing": {
+    "permit": "permits-office",
+    "conditions": "trail-info-desk",
+    "complaint": "visitor-services-supervisor",
+    "lost-and-found": "lost-and-found-desk",
+    "emergency": "dispatch (page the duty ranger immediately)",
+    "general": "front-desk",
+    "unsure": "human-review-queue (a ranger reads it and picks the queue)"
+  },
+  "labels": {
+    "inq-0001": "permit",
+    "inq-0002": "conditions",
+    "inq-0005": "conditions",
+    "inq-0006": "lost-and-found",
+    "inq-0008": "permit",
+    "inq-0010": "complaint",
+    "inq-0012": "lost-and-found",
+    "inq-0013": "emergency",
+    "inq-0015": "permit",
+    "inq-0016": "complaint",
+    "inq-0020": "lost-and-found",
+    "inq-0021": "conditions",
+    "inq-0025": "conditions",
+    "inq-0026": "permit",
+    "inq-0029": "general",
+    "inq-0030": "permit",
+    "inq-0035": "unsure",
+    "inq-0037": "conditions",
+    "inq-0041": "emergency",
+    "inq-0051": "general"
+  },
+  "notes": {
+    "inq-0035": "Deliberately ambiguous, and the reference label is 'unsure'. Two readings are defensible and both are incomplete: 'permit' because the action Priya needs is a swap or refund that only the permits office can grant, and 'conditions' because the whole question hinges on whether the Avalanche Lake bridge washout makes her itinerary doable. Neither queue can close this alone, which is exactly what the 'unsure' route is for: a human reads it and decides. A confident single label here is the failure mode, not the goal.",
+    "inq-0013": "Emergency: overdue hiker (husband, Highline Trail). Missing this one fails the lab regardless of overall accuracy.",
+    "inq-0041": "Emergency: injured hiker mid-trail (ankle, Beehive descent). Missing this one fails the lab regardless of overall accuracy."
+  }
+}

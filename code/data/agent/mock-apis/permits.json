@@ -1,0 +1,27 @@
+{
+  "_comment": "Canned responses for the request_permit tool. 'availability' answers a lookup; 'submit_response' is the canned success payload the tool returns when the agent files a request. The demo narrates that nothing real was booked.",
+  "availability": {
+    "Glacier National Park": {
+      "backcountry": [
+        { "zone": "Lake McDonald / Sperry", "dates": { "2026-09-13": "limited", "2026-09-14": "limited", "2026-09-15": "available", "2026-09-16": "available", "2026-09-17": "available" }, "group_size_limit": 8, "method": "walk-up permits available 24 hours in advance; advance reservations via lottery closed for 2026" },
+        { "zone": "Many Glacier", "dates": { "2026-09-13": "unavailable", "2026-09-14": "unavailable", "2026-09-15": "limited", "2026-09-16": "available", "2026-09-17": "available" }, "group_size_limit": 8, "method": "walk-up permits available 24 hours in advance" }
+      ]
+    },
+    "Yosemite National Park": {
+      "wilderness": [
+        { "zone": "Half Dome / Little Yosemite Valley", "dates": { "2026-09-13": "lottery", "2026-09-14": "lottery", "2026-09-15": "lottery", "2026-09-16": "lottery" }, "group_size_limit": 6, "method": "daily lottery, apply two days ahead" }
+      ]
+    },
+    "Zion National Park": {
+      "wilderness": [
+        { "zone": "The Narrows top-down", "dates": { "2026-09-13": "available", "2026-09-14": "unavailable", "2026-09-15": "unavailable", "2026-09-16": "available" }, "group_size_limit": 12, "method": "advance reservation; closed during flash-flood warnings" }
+      ]
+    }
+  },
+  "submit_response": {
+    "status": "submitted",
+    "confirmation_id": "TRG-2026-091482",
+    "message": "Permit request received. You will be notified by email when a ranger reviews your request, typically within 24 hours. This is a request, not a confirmed permit.",
+    "next_steps": ["Check your email for a review decision.", "Carry printed confirmation on your trip.", "Walk-up conversion available at the Apgar Backcountry Permit Center."]
+  }
+}

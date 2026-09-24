@@ -1,0 +1,28 @@
+<Project>
+
+  <!--
+    Applies to every project in the repo.
+
+    OllamaSharp 5.4.30 ships a source generator built against a newer Roslyn than
+    the .NET 10 SDK carries, so the compiler declines to load it and emits CS9057
+    on every build. Nothing here uses that generator: the demos construct
+    OllamaApiClient and consume it through Microsoft.Extensions.AI's IChatClient
+    and IEmbeddingGenerator, so dropping the analyzer costs nothing and the build
+    is identical without it.
+
+    Removing the analyzer item is deliberate rather than suppressing CS9057 with
+    NoWarn: this way the analyzer genuinely is not loaded, and any OTHER analyzer
+    that ever misbehaves will still warn us. Note that the usual advice,
+    ExcludeAssets="analyzers" on the PackageReference, does not suppress this
+    warning; it was measured and it does not work.
+
+    Delete this target once OllamaSharp ships an analyzer matching the SDK compiler.
+  -->
+  <Target Name="DropOllamaSharpAnalyzer" BeforeTargets="CoreCompile">
+    <ItemGroup>
+      <Analyzer Remove="@(Analyzer)"
+                Condition="$([System.String]::Copy('%(Identity)').Contains('OllamaSharp.SourceGenerators'))" />
+    </ItemGroup>
+  </Target>
+
+</Project>

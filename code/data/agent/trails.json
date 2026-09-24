@@ -1,0 +1,2836 @@
+[
+ {
+  "id": "trail-0001",
+  "name": "Sentinel Dome Loop",
+  "park": "Yosemite National Park",
+  "distance_mi": 2.2,
+  "elevation_ft": 456,
+  "difficulty": "moderate",
+  "features": [
+   "viewpoint",
+   "granite",
+   "sunset"
+  ],
+  "description": "A short push over open granite ends at a bald summit with an unbroken panorama of the valley. Photographers show up an hour before dusk and linger until the last light drains off Half Dome. Bring a windbreaker; the top offers nothing to hide behind."
+ },
+ {
+  "id": "trail-0002",
+  "name": "Watchman Overlook Trail",
+  "park": "Zion National Park",
+  "distance_mi": 3.3,
+  "elevation_ft": 368,
+  "difficulty": "moderate",
+  "features": [
+   "viewpoint",
+   "desert",
+   "spring-wildflowers"
+  ],
+  "description": "Switchbacks climb gradually from the visitor center to a bench overlooking the canyon mouth. The grade stays forgiving the whole way, which makes it a favorite first hike for families getting their legs. Afternoon sun bakes the lower half, so most regulars go before breakfast."
+ },
+ {
+  "id": "trail-0003",
+  "name": "Trail of the Cedars",
+  "park": "Glacier National Park",
+  "distance_mi": 1.0,
+  "elevation_ft": 60,
+  "difficulty": "easy",
+  "features": [
+   "boardwalk",
+   "dog-friendly",
+   "old-growth",
+   "accessible"
+  ],
+  "description": "A raised boardwalk winds beneath ancient cedars whose canopy keeps the path cool even in August. The route is flat enough for strollers and wheelchairs, and leashed pets are welcome, a rarity in this park. Interpretive signs explain how this pocket of rainforest survives on the Continental Divide's wet side."
+ },
+ {
+  "id": "trail-0004",
+  "name": "Ocean Path",
+  "park": "Acadia National Park",
+  "distance_mi": 4.4,
+  "elevation_ft": 190,
+  "difficulty": "easy",
+  "features": [
+   "coastline",
+   "tide-pools",
+   "family-friendly"
+  ],
+  "description": "The trail hugs pink granite ledges between Sand Beach and Otter Point, with the surf pounding a few feet below. Countless spur paths drop to tide pools where kids can lose an entire morning. Nothing about the walking is demanding; the challenge is making forward progress past all the views."
+ },
+ {
+  "id": "trail-0005",
+  "name": "Chimney Tops Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 3.8,
+  "elevation_ft": 1487,
+  "difficulty": "hard",
+  "features": [
+   "viewpoint",
+   "rock-scramble"
+  ],
+  "description": "The first mile lulls you with creek crossings and rhododendron tunnels before the trail tilts sharply upward. Stone staircases climb relentlessly to an observation platform below the twin pinnacles. Expect burning quads and a crowded summit on fall weekends."
+ },
+ {
+  "id": "trail-0006",
+  "name": "Deer Mountain Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 6.2,
+  "elevation_ft": 1210,
+  "difficulty": "moderate",
+  "features": [
+   "viewpoint",
+   "forest",
+   "elk"
+  ],
+  "description": "Long, lazy switchbacks through ponderosa parkland make the elevation gain feel almost polite. Elk bed down in the meadows along the lower stretch most mornings in autumn. The summit rocks serve up a wide look at Longs Peak without demanding an alpine start."
+ },
+ {
+  "id": "trail-0007",
+  "name": "Upper Yosemite Falls Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 7.2,
+  "elevation_ft": 2700,
+  "difficulty": "hard",
+  "features": [
+   "waterfall",
+   "viewpoint",
+   "switchbacks"
+  ],
+  "description": "Sixty-odd switchbacks grind up the north wall to the brink of the continent's tallest waterfall. In May the spray at Columbia Rock soaks anyone who pauses too long, and the roar follows you the entire climb. This one punishes people who underestimate it; carry twice the water you think you need."
+ },
+ {
+  "id": "trail-0008",
+  "name": "Highline Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 11.8,
+  "elevation_ft": 1950,
+  "difficulty": "hard",
+  "features": [
+   "alpine",
+   "viewpoint",
+   "wildlife",
+   "ledges"
+  ],
+  "description": "Carved into the Garden Wall, the tread runs along a cliff band with a hand cable bolted to the rock for the nervous. Mountain goats treat hikers as scenery, and bighorn sheep graze the slopes above Granite Park. Anyone uneasy with exposure should think hard about the first quarter mile before committing."
+ },
+ {
+  "id": "trail-0009",
+  "name": "Canyon Rim Traverse",
+  "park": "Zion National Park",
+  "distance_mi": 5.4,
+  "elevation_ft": 890,
+  "difficulty": "moderate",
+  "features": [
+   "viewpoint",
+   "slickrock"
+  ],
+  "description": "Cairns lead across bare sandstone benches high above the switchbacked road. There is little shade and no water, but the payoff is a rim-edge lunch spot most visitors never find. Navigation takes some attention where the slickrock swallows the path."
+ },
+ {
+  "id": "trail-0010",
+  "name": "Alum Cave Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 4.6,
+  "elevation_ft": 1260,
+  "difficulty": "moderate",
+  "features": [
+   "geologic",
+   "arch",
+   "viewpoint"
+  ],
+  "description": "The route ducks through Arch Rock's natural tunnel, then climbs past heath balds to a massive concave bluff that stays dry in a downpour. Steel cables assist a few narrow ledges, though sure-footed hikers barely notice them. Winter ice turns those same ledges into a genuine hazard."
+ },
+ {
+  "id": "trail-0011",
+  "name": "Hadlock Falls Loop",
+  "park": "Acadia National Park",
+  "distance_mi": 2.1,
+  "elevation_ft": 310,
+  "difficulty": "easy",
+  "features": [
+   "waterfall",
+   "dog-friendly",
+   "carriage-road",
+   "bridge"
+  ],
+  "description": "Crushed-stone carriage roads climb so gradually you hardly register the gain before the falls appear beneath a stone arch bridge. Leashed dogs are welcome, and the wide surface lets groups walk two abreast. The cascade is loudest after spring rain and dwindles to a trickle by late summer."
+ },
+ {
+  "id": "trail-0012",
+  "name": "Gem Lake Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 3.4,
+  "elevation_ft": 990,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "rock-formations"
+  ],
+  "description": "Granite hoodoos and balanced boulders line the climb out of Lumpy Ridge, giving kids something to marvel at between snack breaks. The pocket lake at the top sits in a bare rock bowl with no inlet or outlet. Afternoon thunderheads build fast here, so start early in July."
+ },
+ {
+  "id": "trail-0013",
+  "name": "Iceberg Lake Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 9.6,
+  "elevation_ft": 1275,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "alpine",
+   "wildflowers",
+   "bears"
+  ],
+  "description": "Despite the mileage, the grade is gentle enough that trail runners treat it as a recovery day. Bergs calve off the shaded headwall and drift across the turquoise water well into July. This valley is prime grizzly habitat; rangers recommend groups of three or more and loud conversation at the blind corners."
+ },
+ {
+  "id": "trail-0014",
+  "name": "Mirror Lake Loop",
+  "park": "Yosemite National Park",
+  "distance_mi": 4.7,
+  "elevation_ft": 180,
+  "difficulty": "easy",
+  "features": [
+   "lake",
+   "reflections",
+   "family-friendly"
+  ],
+  "description": "A mostly level circuit around a seasonal lake that throws a flawless reflection of Mount Watkins in spring. By August the water retreats to a meadow of grasses and the crowds thin with it. The paved first mile suits strollers; the back half is packed dirt with a few roots."
+ },
+ {
+  "id": "trail-0015",
+  "name": "Emerald Pools Trail",
+  "park": "Zion National Park",
+  "distance_mi": 3.0,
+  "elevation_ft": 620,
+  "difficulty": "moderate",
+  "features": [
+   "waterfall",
+   "pools",
+   "hanging-gardens"
+  ],
+  "description": "Water seeps and spills over three tiers of alcoves, feeding pools ringed by maidenhair fern. The lower section passes behind a curtain of falling water, which delights children and soaks everyone in spring. Slickrock near the upper pool has caused falls; keep a grip on small hikers."
+ },
+ {
+  "id": "trail-0016",
+  "name": "Andrews Bald Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 3.6,
+  "elevation_ft": 900,
+  "difficulty": "moderate",
+  "features": [
+   "grassy-bald",
+   "viewpoint",
+   "blueberries"
+  ],
+  "description": "Rebuilt log steps and boardwalk take the sting out of what used to be a rutted, muddy descent. The bald itself is a sloping meadow made for picnic blankets, with layered ridgelines fading blue to the horizon. Wild blueberries ripen along the fringe in late August."
+ },
+ {
+  "id": "trail-0017",
+  "name": "Beehive Loop",
+  "park": "Acadia National Park",
+  "distance_mi": 1.5,
+  "elevation_ft": 508,
+  "difficulty": "hard",
+  "features": [
+   "iron-rungs",
+   "exposure",
+   "viewpoint"
+  ],
+  "description": "Iron rungs and narrow ledges ladder straight up a cliff face above Sand Beach. It is short, but a fear of heights will find you halfway up with no easy retreat, since descending the rungs against traffic is discouraged. The tamer Bowl trail offers a walk-off from the summit."
+ },
+ {
+  "id": "trail-0018",
+  "name": "Cub Lake Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 4.6,
+  "elevation_ft": 540,
+  "difficulty": "easy",
+  "features": [
+   "lake",
+   "wildlife",
+   "wildflowers"
+  ],
+  "description": "The path ambles through moraine meadows where mule deer graze at dusk, then slips into aspen groves burned patchily by an old fire. Lily pads cover the lake by midsummer. Modest gain and soft footing make it a good choice for visitors still adjusting to altitude."
+ },
+ {
+  "id": "trail-0019",
+  "name": "Grinnell Glacier Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 10.6,
+  "elevation_ft": 1840,
+  "difficulty": "hard",
+  "features": [
+   "glacier",
+   "lake",
+   "alpine",
+   "wildflowers"
+  ],
+  "description": "The trail contours above two impossibly colored lakes before climbing to the ice itself, shrinking year by year. Boat shuttles across Swiftcurrent and Josephine can trim three miles for those who want the destination more than the journey. Late-season snowfields linger on the final headwall pitch."
+ },
+ {
+  "id": "trail-0020",
+  "name": "Taft Point Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 2.3,
+  "elevation_ft": 250,
+  "difficulty": "easy",
+  "features": [
+   "viewpoint",
+   "fissures",
+   "sunset"
+  ],
+  "description": "A relaxed forest stroll delivers you, almost without warning, to the lip of a three-thousand-foot drop. Deep fissures split the granite right at the edge, and only a small railing guards the main overlook. Keep children close; the ground gives no second chances here."
+ },
+ {
+  "id": "trail-0021",
+  "name": "Sperry Chalet Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 6.4,
+  "elevation_ft": 3432,
+  "difficulty": "hard",
+  "features": [
+   "historic-chalet",
+   "viewpoint",
+   "wildlife"
+  ],
+  "description": "Six relentless miles climb from Lake McDonald to a stone chalet built by the Great Northern Railway in 1913, rebuilt after the 2017 fire. The distance is one way, and most guests either book a bunk or budget a very long day. Pack mules still haul supplies up this corridor, so yield to stock and step to the downhill side."
+ },
+ {
+  "id": "trail-0022",
+  "name": "Kolob Terrace Rim Walk",
+  "park": "Zion National Park",
+  "distance_mi": 4.1,
+  "elevation_ft": 480,
+  "difficulty": "easy",
+  "features": [
+   "viewpoint",
+   "aspen",
+   "solitude"
+  ],
+  "description": "High on the plateau far from the shuttle crowds, this walk drifts through aspen and black sage to a quiet rim overlook. The elevation keeps temperatures ten degrees kinder than the main canyon. On weekdays you may not see another soul."
+ },
+ {
+  "id": "trail-0023",
+  "name": "Porters Creek Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 4.0,
+  "elevation_ft": 700,
+  "difficulty": "easy",
+  "features": [
+   "wildflowers",
+   "historic-structures",
+   "creek"
+  ],
+  "description": "In April the forest floor here disappears under trillium, phacelia, and fringed foam flower, arguably the best spring display in the park. Old farmstead walls and a preserved cantilever barn mark the first mile. The footlog over the creek wobbles enough to earn nervous laughter."
+ },
+ {
+  "id": "trail-0024",
+  "name": "Jordan Pond Path",
+  "park": "Acadia National Park",
+  "distance_mi": 3.4,
+  "elevation_ft": 80,
+  "difficulty": "easy",
+  "features": [
+   "lake",
+   "boardwalk",
+   "family-friendly"
+  ],
+  "description": "A shoreline circuit with the rounded Bubbles reflected in water so clear the state uses it as a purity benchmark. Long stretches of split-log boardwalk keep boots dry through the boggy western shore. Finish with popovers on the lawn of the historic teahouse."
+ },
+ {
+  "id": "trail-0025",
+  "name": "Sky Pond via Glacier Gorge",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 9.8,
+  "elevation_ft": 1780,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "alpine",
+   "scramble"
+  ],
+  "description": "The route strings together three lakes, each higher and starker than the last, ending in a cirque beneath jagged spires. Reaching the final shelf means scrambling up wet rock beside Timberline Falls, hands required. Turn around counts as success if the scramble is running with meltwater."
+ },
+ {
+  "id": "trail-0026",
+  "name": "Wapama Falls via Hetch Hetchy",
+  "park": "Yosemite National Park",
+  "distance_mi": 5.0,
+  "elevation_ft": 400,
+  "difficulty": "moderate",
+  "features": [
+   "reservoir",
+   "granite",
+   "spring-runoff"
+  ],
+  "description": "The trail crosses the dam, tunnels through raw rock, then undulates along the reservoir's northern shore. In peak runoff the footbridges at the far end vanish under whitewater and rangers close the crossing. Rattlesnakes sun on the warm granite; watch where you put your hands."
+ },
+ {
+  "id": "trail-0027",
+  "name": "Grotto Falls Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 2.6,
+  "elevation_ft": 585,
+  "difficulty": "moderate",
+  "features": [
+   "waterfall",
+   "dog-friendly",
+   "old-growth"
+  ],
+  "description": "This is one of the few park paths where leashed dogs may join, and the destination lets you walk behind the falling water into a cool, dripping alcove. Hemlocks keep the entire route dim and ten degrees cooler than the parking lot. The moderate grade suits most fitness levels with a couple of rest stops."
+ },
+ {
+  "id": "trail-0028",
+  "name": "Swiftcurrent Nature Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 2.5,
+  "elevation_ft": 95,
+  "difficulty": "easy",
+  "features": [
+   "lake",
+   "wildlife",
+   "family-friendly"
+  ],
+  "description": "A flat lakeshore loop with Grinnell Point looming overhead like a stage backdrop. Moose wade the shallows at dawn often enough that photographers stake out the western shore. The gravel tread is smooth and level from end to end, kind to ankles and toddlers alike."
+ },
+ {
+  "id": "trail-0029",
+  "name": "Sandbench Vista Trail",
+  "park": "Zion National Park",
+  "distance_mi": 3.5,
+  "elevation_ft": 500,
+  "difficulty": "moderate",
+  "features": [
+   "desert",
+   "viewpoint",
+   "horses"
+  ],
+  "description": "Deep sand makes each step cost half again what it should, a workout the mileage understates. Outfitters run horse strings here through midday, leaving the tread churned; hikers get the trail to themselves before nine. Views of the Court of the Patriarchs open along the whole upper bench."
+ },
+ {
+  "id": "trail-0030",
+  "name": "Bierstadt Lake Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 3.2,
+  "elevation_ft": 610,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "aspen",
+   "viewpoint"
+  ],
+  "description": "Switchbacks up a moraine of shimmering aspen deliver a hidden lake with the Continental Divide arrayed behind it. Fall color usually peaks the last week of September and draws photographers in droves. The gain comes all at once, then the top is a level, easy wander."
+ },
+ {
+  "id": "trail-0031",
+  "name": "Great Head Trail",
+  "park": "Acadia National Park",
+  "distance_mi": 1.7,
+  "elevation_ft": 145,
+  "difficulty": "moderate",
+  "features": [
+   "coastline",
+   "viewpoint",
+   "rock-scramble"
+  ],
+  "description": "The loop circles a headland of sea cliffs with Sand Beach spread below like a postcard. Short scrambly bits over ledges keep it interesting without ever becoming truly difficult. Fog transforms it into something moody and wonderful; bring a shell."
+ },
+ {
+  "id": "trail-0032",
+  "name": "Cathedral Lakes Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 8.0,
+  "elevation_ft": 1000,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "alpine",
+   "granite"
+  ],
+  "description": "From Tuolumne Meadows the trail rises through lodgepole to a pair of lakes beneath a peak shaped like a cathedral spire. The thin air at 9,500 feet does more of the work against you than the grade does. Mosquitoes own the shoreline through mid-July; after that it is close to perfect."
+ },
+ {
+  "id": "trail-0033",
+  "name": "Running Eagle Falls Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 0.6,
+  "elevation_ft": 50,
+  "difficulty": "easy",
+  "features": [
+   "waterfall",
+   "accessible",
+   "family-friendly"
+  ],
+  "description": "A wide, level path leads to a curious double waterfall that pours from a cave mouth in low water and over the cliff above it in high water. The whole walk takes fifteen minutes and is manageable for wheelchairs with assistance. Interpretive panels share the Blackfeet story behind the name."
+ },
+ {
+  "id": "trail-0034",
+  "name": "Rich Mountain Loop",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 8.5,
+  "elevation_ft": 1735,
+  "difficulty": "hard",
+  "features": [
+   "forest",
+   "historic-structures",
+   "solitude"
+  ],
+  "description": "While thousands circle Cades Cove by car below, this loop climbs quietly above it through oak and mountain laurel. The John Oliver cabin anchors the start, and glimpses of the cove appear through leafless branches in winter. Water is scarce on the ridge; carry all you need."
+ },
+ {
+  "id": "trail-0035",
+  "name": "Many Pools Route",
+  "park": "Zion National Park",
+  "distance_mi": 2.4,
+  "elevation_ft": 450,
+  "difficulty": "moderate",
+  "features": [
+   "slickrock",
+   "pools",
+   "solitude"
+  ],
+  "description": "An unmarked wash east of the tunnel climbs past dozens of water-carved potholes that brim after storms. There is no formal trail, just bare sandstone and your own judgment. Tadpoles and fairy shrimp animate the pools in early summer; please look without touching."
+ },
+ {
+  "id": "trail-0036",
+  "name": "Ute Trail Tundra Walk",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 4.0,
+  "elevation_ft": 340,
+  "difficulty": "moderate",
+  "features": [
+   "tundra",
+   "viewpoint",
+   "wildlife"
+  ],
+  "description": "Starting above treeline on Trail Ridge Road, this ancient travois route rolls across open tundra with hundred-mile sightlines. The walking is not hard, but at 11,500 feet flatlanders gasp on the gentlest rise. Weather arrives with zero warning up here; retreat at the first gray cloud."
+ },
+ {
+  "id": "trail-0037",
+  "name": "Bowman Lake Shoreline Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 7.1,
+  "elevation_ft": 260,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "forest",
+   "solitude"
+  ],
+  "description": "The washboard drive to the trailhead filters out most visitors, leaving this shoreline walk blissfully quiet. Lodgepole and larch frame a lake that runs seven miles into wild country. The tread barely climbs; the only real difficulty is deciding where to stop."
+ },
+ {
+  "id": "trail-0038",
+  "name": "Vernal Fall Footbridge Walk",
+  "park": "Yosemite National Park",
+  "distance_mi": 1.6,
+  "elevation_ft": 400,
+  "difficulty": "moderate",
+  "features": [
+   "river",
+   "viewpoint",
+   "paved"
+  ],
+  "description": "Paved but honestly steep, this stub of the Mist Trail climbs to a bridge with a head-on view of Vernal Fall. It is the busiest stretch of trail in the park by a wide margin; sunrise is the only quiet hour. The pavement is unforgiving on the descent for anyone with cranky knees."
+ },
+ {
+  "id": "trail-0039",
+  "name": "Ship Harbor Nature Trail",
+  "park": "Acadia National Park",
+  "distance_mi": 1.3,
+  "elevation_ft": 60,
+  "difficulty": "easy",
+  "features": [
+   "coastline",
+   "tide-pools",
+   "birding",
+   "accessible"
+  ],
+  "description": "A figure-eight through spruce forest to a quiet cobble shore on the island's less-traveled side. The first loop is graded gravel suitable for wheelchairs; the second adds gentle ledges. Warblers move through in waves each May, and low tide reveals a good tide-pooling shelf."
+ },
+ {
+  "id": "trail-0040",
+  "name": "Charlies Bunion via Appalachian Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 8.1,
+  "elevation_ft": 1640,
+  "difficulty": "hard",
+  "features": [
+   "viewpoint",
+   "ridgeline",
+   "AT-section"
+  ],
+  "description": "The AT rolls east from Newfound Gap along a crest where Fraser fir skeletons testify to a century of change. The bunion itself is a bare rock knob thrust over a two-thousand-foot plunge. Footing is rocky and rooty nearly the whole way, so the miles pass slowly."
+ },
+ {
+  "id": "trail-0041",
+  "name": "Checkerboard Wash Trail",
+  "park": "Zion National Park",
+  "distance_mi": 1.8,
+  "elevation_ft": 220,
+  "difficulty": "easy",
+  "features": [
+   "geologic",
+   "desert",
+   "solitude"
+  ],
+  "description": "A sandy wash curls beneath the crosshatched face of Checkerboard Mesa on the park's quieter east side. The grade is barely perceptible, making this a fine leg-stretcher between viewpoints. Bighorn sheep pick their way across the slickrock above with some regularity."
+ },
+ {
+  "id": "trail-0042",
+  "name": "Hidden Meadow Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 3.2,
+  "elevation_ft": 410,
+  "difficulty": "easy",
+  "features": [
+   "meadow",
+   "wildflowers",
+   "berries",
+   "birding"
+  ],
+  "description": "A soft path through lodgepole opens onto a meadow that erupts with paintbrush and sticky geranium in July. Locals guard the locations of the huckleberry patches along the fringe, which ripen in August and draw bears as reliably as people. The gentle grade and short distance make it an unhurried half-day with a picnic."
+ },
+ {
+  "id": "trail-0043",
+  "name": "Alberta Falls Snowshoe Route",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 1.7,
+  "elevation_ft": 250,
+  "difficulty": "easy",
+  "features": [
+   "winter",
+   "creek",
+   "family-friendly"
+  ],
+  "description": "In winter this packed track is the park's most forgiving introduction to snowshoeing, following Glacier Creek to a frozen cascade hung with blue ice. Summer visitors find a shaded, gradual creekside walk instead. Either season, it pairs well with hot chocolate afterward."
+ },
+ {
+  "id": "trail-0044",
+  "name": "Lyell Canyon Meander",
+  "park": "Yosemite National Park",
+  "distance_mi": 8.8,
+  "elevation_ft": 200,
+  "difficulty": "easy",
+  "features": [
+   "river",
+   "meadow",
+   "fishing"
+  ],
+  "description": "Nearly nine miles of walking with barely two hundred feet of climb, the trail idles beside a river that pools glassy and green between meadows. Turn around whenever you like; the scenery does not ration itself. Brook trout rise at dusk for anyone who packed a rod."
+ },
+ {
+  "id": "trail-0045",
+  "name": "Ramsey Cascades Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 8.0,
+  "elevation_ft": 2190,
+  "difficulty": "hard",
+  "features": [
+   "old-growth",
+   "creek",
+   "roots"
+  ],
+  "description": "The path climbs through record-size tulip poplars you cannot link arms around, gaining ground in stubborn, rooty surges. The hundred-foot cascade at the end fans over rock ledges slick as glass; several people have died climbing beside it, so admire from the base. Allow far more time than the mileage suggests."
+ },
+ {
+  "id": "trail-0046",
+  "name": "Apikuni Flats Path",
+  "park": "Glacier National Park",
+  "distance_mi": 2.0,
+  "elevation_ft": 120,
+  "difficulty": "easy",
+  "features": [
+   "meadow",
+   "wildlife",
+   "viewpoint"
+  ],
+  "description": "An open valley ramble beneath Apikuni Mountain where ground squirrels whistle from every hummock. The mountain panorama surrounds you from the first step, no climbing required. Wind is the only adversary; it can howl down this valley on otherwise perfect days."
+ },
+ {
+  "id": "trail-0047",
+  "name": "Laurel Falls Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 2.6,
+  "elevation_ft": 314,
+  "difficulty": "easy",
+  "features": [
+   "waterfall",
+   "paved",
+   "family-friendly"
+  ],
+  "description": "A paved path built in the 1960s rises steadily to an eighty-foot falls split by a walkway at its midpoint. Its convenience makes it wildly popular; arrive at dawn or expect a procession. The pavement is cracked and cambered in places, less stroller-friendly than it first appears."
+ },
+ {
+  "id": "trail-0048",
+  "name": "Coalpits Wash Trail",
+  "park": "Zion National Park",
+  "distance_mi": 6.5,
+  "elevation_ft": 480,
+  "difficulty": "moderate",
+  "features": [
+   "desert",
+   "solitude",
+   "winter-hiking"
+  ],
+  "description": "The park's lowest-elevation trail follows a desert wash past petrified wood and blooming prickly pear. When snow closes the high country, this corridor stays warm and open, a local secret for January hiking. Summer afternoons here are punishing; treat it as a cool-season route."
+ },
+ {
+  "id": "trail-0049",
+  "name": "Gorham Mountain Trail",
+  "park": "Acadia National Park",
+  "distance_mi": 3.5,
+  "elevation_ft": 525,
+  "difficulty": "moderate",
+  "features": [
+   "viewpoint",
+   "coastline",
+   "ledges"
+  ],
+  "description": "Open granite ledges stack views of the coastline higher with every step, from Otter Cliff to the Cranberry Isles. The Cadillac Cliffs spur adds a fun stretch beneath overhanging rock once pounded by ancient surf. Exposed ledge is slippery when wet fog rolls in, which is often."
+ },
+ {
+  "id": "trail-0050",
+  "name": "Rockwell Falls Approach",
+  "park": "Glacier National Park",
+  "distance_mi": 6.8,
+  "elevation_ft": 520,
+  "difficulty": "moderate",
+  "features": [
+   "creek",
+   "forest",
+   "solitude"
+  ],
+  "description": "From Two Medicine the trail crosses a swinging suspension bridge, then works quietly through fir forest to a tiered cascade. Grades stay mellow throughout, and the Two Medicine valley sees a fraction of the crowds at Logan Pass. The falls invite long lunches on warm slabs of red argillite."
+ },
+ {
+  "id": "trail-0051",
+  "name": "Pohono Trail West",
+  "park": "Yosemite National Park",
+  "distance_mi": 6.9,
+  "elevation_ft": 1300,
+  "difficulty": "hard",
+  "features": [
+   "viewpoint",
+   "forest",
+   "solitude"
+  ],
+  "description": "This rim traverse strings together Dewey, Crocker, and Stanford Points, each overlook emptier than the last. Between viewpoints the trail dips and climbs through quiet red fir where bears forage unbothered. Arrange a shuttle or accept an out-and-back that doubles the effort."
+ },
+ {
+  "id": "trail-0052",
+  "name": "Two Medicine Lake South Shore",
+  "park": "Glacier National Park",
+  "distance_mi": 4.5,
+  "elevation_ft": 320,
+  "difficulty": "easy",
+  "features": [
+   "lake",
+   "viewpoint",
+   "boat-option"
+  ],
+  "description": "Sinopah Mountain rises straight from the far shore like a painted flat, and the trail rolls along the water toward it with only token climbs. The historic launch can ferry you back across if the return feels redundant. Loons call across the water on still mornings."
+ },
+ {
+  "id": "trail-0053",
+  "name": "Gregory Bald via Gregory Ridge",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 11.3,
+  "elevation_ft": 3020,
+  "difficulty": "hard",
+  "features": [
+   "grassy-bald",
+   "azaleas",
+   "viewpoint"
+  ],
+  "description": "In mid-June the summit meadow ignites with flame azaleas in colors that seem invented, a display botanists travel continents to see. Earning it means a long, steady grind up a dry ridge with your entire day's water on your back. The bald rewards those who linger; whitetail deer graze the fringe at dusk."
+ },
+ {
+  "id": "trail-0054",
+  "name": "Pine Creek Overlook Trail",
+  "park": "Zion National Park",
+  "distance_mi": 1.1,
+  "elevation_ft": 160,
+  "difficulty": "easy",
+  "features": [
+   "viewpoint",
+   "canyon"
+  ],
+  "description": "Just east of the tunnel, a short sandy track winds through juniper to a ledge over Pine Creek's slot. The Great Arch fills the view across the canyon, best lit in the last hour of daylight. Most drivers rush past without ever learning this overlook exists."
+ },
+ {
+  "id": "trail-0055",
+  "name": "Copeland Falls Path",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 1.2,
+  "elevation_ft": 130,
+  "difficulty": "easy",
+  "features": [
+   "waterfall",
+   "dog-friendly",
+   "river",
+   "family-friendly"
+  ],
+  "description": "In the Wild Basin corner of the park, a broad riverside path arrives at a pair of low, wide waterfalls within twenty easy minutes. Leashed dogs are permitted on this stretch, one of very few such trails here. The nearly flat grade and short distance suit grandparents and toddlers equally well."
+ },
+ {
+  "id": "trail-0056",
+  "name": "Wonderland Trail",
+  "park": "Acadia National Park",
+  "distance_mi": 1.4,
+  "elevation_ft": 45,
+  "difficulty": "easy",
+  "features": [
+   "coastline",
+   "tide-pools",
+   "family-friendly"
+  ],
+  "description": "An old fire road, level and wide, ends at pink ledges scattered with tide pools and sea urchin shells. Small children can manage the whole thing without being carried. Go at low tide or you will wonder what the fuss is about."
+ },
+ {
+  "id": "trail-0057",
+  "name": "Siyeh Pass Traverse",
+  "park": "Glacier National Park",
+  "distance_mi": 9.7,
+  "elevation_ft": 2240,
+  "difficulty": "hard",
+  "features": [
+   "alpine",
+   "pass",
+   "wildflowers",
+   "scree"
+  ],
+  "description": "The route climbs through Preston Park's wildflower gardens before switchbacking up scree to a windswept saddle above 8,000 feet. On the far side, the descent passes a shrinking glacier and drops through bands of crumbling rock. Point-to-point hikers use the shuttle to link the two trailheads along Going-to-the-Sun Road."
+ },
+ {
+  "id": "trail-0058",
+  "name": "Panorama Cliffs Bypass",
+  "park": "Yosemite National Park",
+  "distance_mi": 5.6,
+  "elevation_ft": 720,
+  "difficulty": "moderate",
+  "features": [
+   "viewpoint",
+   "forest"
+  ],
+  "description": "This alternate line to Panorama Point stays on the wooded bench and avoids the steep sections of the main cliff route entirely. The walking is smooth and steady, with filtered views of Illilouette Gorge between the trees. It is the sensible pick when ice lingers on the exposed switchbacks in early season."
+ },
+ {
+  "id": "trail-0059",
+  "name": "Abrams Falls Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 5.2,
+  "elevation_ft": 675,
+  "difficulty": "moderate",
+  "features": [
+   "waterfall-adjacent",
+   "river",
+   "pine-ridge"
+  ],
+  "description": "From Cades Cove the trail rides three pine ridges above Abrams Creek before dropping to a short falls with an enormous plunge pool. The current below the falls is deceptively strong and has taken swimmers; wade the shallows instead. Heat and humidity make the return ridges feel taller than they are."
+ },
+ {
+  "id": "trail-0060",
+  "name": "Court of the Patriarchs Viewpoint",
+  "park": "Zion National Park",
+  "distance_mi": 0.5,
+  "elevation_ft": 90,
+  "difficulty": "easy",
+  "features": [
+   "viewpoint",
+   "family-friendly"
+  ],
+  "description": "A five-minute paved climb from the shuttle stop frames three sandstone towers named for biblical patriarchs. It is the shortest worthwhile walk in the canyon and a good first stop for orienting yourself. Morning light does the peaks the most justice."
+ },
+ {
+  "id": "trail-0061",
+  "name": "Chilnualna Falls Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 8.2,
+  "elevation_ft": 2300,
+  "difficulty": "hard",
+  "features": [
+   "waterfall",
+   "granite",
+   "solitude"
+  ],
+  "description": "Wawona's backyard climb passes cascade after cascade, culminating in a series of falls sliding down granite chutes. The valley crowds never make it here; you may share the top with no one but a dipper working the current. Poison oak crowds the lower trail edges, so long pants earn their keep."
+ },
+ {
+  "id": "trail-0062",
+  "name": "Redrock Falls Route",
+  "park": "Glacier National Park",
+  "distance_mi": 3.6,
+  "elevation_ft": 310,
+  "difficulty": "easy",
+  "features": [
+   "cascades",
+   "lake",
+   "moose"
+  ],
+  "description": "The trail ambles past Fishercap Lake, where moose feed so predictably that rangers field questions about their schedule. Redrock's cascades tumble over ledges of brick-colored argillite that glow at golden hour. Grades are mild the whole way, though the tread is stony in stretches."
+ },
+ {
+  "id": "trail-0063",
+  "name": "Twin Sisters Peaks Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 7.4,
+  "elevation_ft": 2338,
+  "difficulty": "hard",
+  "features": [
+   "summit",
+   "viewpoint",
+   "training-hike"
+  ],
+  "description": "Locals treat this unglamorous grind as their conditioning barometer for bigger objectives across the valley. Switchbacks march up through a 2013 landslide scar to twin rock summits staring directly at Longs Peak's east face. There is no water anywhere on the route and precious little shade past halfway."
+ },
+ {
+  "id": "trail-0064",
+  "name": "Flying Mountain Loop",
+  "park": "Acadia National Park",
+  "distance_mi": 1.5,
+  "elevation_ft": 284,
+  "difficulty": "moderate",
+  "features": [
+   "viewpoint",
+   "coastline",
+   "forest"
+  ],
+  "description": "The lowest named summit in the park still hands you Somes Sound spread out like a fjord postcard. A brisk fifteen-minute climb gains the top, then the loop descends to Valley Cove for a shoreline return. Roots and ledges keep you honest despite the modest numbers."
+ },
+ {
+  "id": "trail-0065",
+  "name": "Little River Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 4.9,
+  "elevation_ft": 380,
+  "difficulty": "easy",
+  "features": [
+   "river",
+   "fireflies",
+   "railroad-grade"
+  ],
+  "description": "Following an old logging railbed, the trail keeps a nearly flat grade beside a river of mossy boulders and swimming holes. For two weeks in June, synchronous fireflies pulse through these woods and lottery-won crowds gather in reverent dark. The rest of the year it is a peaceful, unhurried streamside walk."
+ },
+ {
+  "id": "trail-0066",
+  "name": "Dawson Pass Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 13.2,
+  "elevation_ft": 2450,
+  "difficulty": "hard",
+  "features": [
+   "alpine",
+   "pass",
+   "ridgeline",
+   "loop-option"
+  ],
+  "description": "Paired with Pitamakan Pass, this route makes the park's finest day loop, tracing a catwalk of trail across the face of Flinsch Peak. Wind at the divide can knock adults off stride; more than one hat has sailed into the next drainage. The boat across Two Medicine Lake shaves miles for those who want them back."
+ },
+ {
+  "id": "trail-0067",
+  "name": "Taylor Creek Middle Fork",
+  "park": "Zion National Park",
+  "distance_mi": 5.0,
+  "elevation_ft": 450,
+  "difficulty": "moderate",
+  "features": [
+   "canyon",
+   "historic-structures",
+   "creek"
+  ],
+  "description": "The trail crosses the creek dozens of times as red walls close in overhead, passing two homestead cabins from the 1930s. It ends at Double Arch Alcove, a soaring blind arch stained with desert varnish. Expect wet boots in spring and iced-over crossings in January."
+ },
+ {
+  "id": "trail-0068",
+  "name": "Carlon Falls Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 3.8,
+  "elevation_ft": 350,
+  "difficulty": "moderate",
+  "features": [
+   "waterfall",
+   "dog-friendly",
+   "river",
+   "swimming"
+  ],
+  "description": "Because it starts just outside the park boundary in national forest, leashed dogs can come along to this year-round waterfall on the Tuolumne's south fork. The path rolls gently through pine and incense cedar with one rooty stretch near the end. The pool below the falls warms enough for swimming by late July."
+ },
+ {
+  "id": "trail-0069",
+  "name": "Lumpy Ridge Loop",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 10.7,
+  "elevation_ft": 2190,
+  "difficulty": "hard",
+  "features": [
+   "rock-formations",
+   "solitude",
+   "birding"
+  ],
+  "description": "The loop circumnavigates a ridge of granite domes beloved by climbers, passing beneath formations with names like the Book and Twin Owls. Raptor closures protect nesting falcons on certain crags each spring. Long, dry stretches between shade make an early start the wise play in summer."
+ },
+ {
+  "id": "trail-0070",
+  "name": "Oconaluftee River Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 3.0,
+  "elevation_ft": 70,
+  "difficulty": "easy",
+  "features": [
+   "river",
+   "historic-structures",
+   "elk",
+   "accessible"
+  ],
+  "description": "Flat, wide, and surfaced in fine gravel, the path links the visitor center to the Cherokee boundary along a lazy river. Elk wander through the adjacent Mountain Farm Museum most evenings in fall, stopping traffic and conversation alike. This is one of only two park trails open to leashed pets and bicycles."
+ },
+ {
+  "id": "trail-0071",
+  "name": "Ptarmigan Tunnel Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 10.7,
+  "elevation_ft": 2300,
+  "difficulty": "hard",
+  "features": [
+   "tunnel",
+   "lake",
+   "alpine"
+  ],
+  "description": "A 240-foot tunnel blasted through the Ptarmigan Wall in 1930 lets hikers step through a mountain and out into a different watershed. The approach passes a falls and a cold blue lake before switchbacking up scree to the steel doors. The doors close for the season in early October, so check before building a trip around it."
+ },
+ {
+  "id": "trail-0072",
+  "name": "Beech Mountain Fire Tower Trail",
+  "park": "Acadia National Park",
+  "distance_mi": 1.1,
+  "elevation_ft": 260,
+  "difficulty": "moderate",
+  "features": [
+   "fire-tower",
+   "viewpoint",
+   "sunset"
+  ],
+  "description": "A short climb on the island's quiet side ends at a 1962 fire tower whose cab opens to visitors a few days each fall. Long Pond glitters below, and sunset from the west ledges rivals anything on Cadillac. The loop's south leg descends open granite; take it slow in the dark."
+ },
+ {
+  "id": "trail-0073",
+  "name": "Four Mile Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 9.6,
+  "elevation_ft": 3200,
+  "difficulty": "hard",
+  "features": [
+   "viewpoint",
+   "switchbacks",
+   "historic-route"
+  ],
+  "description": "Built as a toll path in 1872, the trail zigzags up the valley's south wall to Glacier Point, with the panorama recalibrating at every turn. Doing it up and down in a day is a serious undertaking; many ride the tour bus one direction instead. Closed in winter when ice glazes the upper traverses."
+ },
+ {
+  "id": "trail-0074",
+  "name": "Easy Creek Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 7.8,
+  "elevation_ft": 2610,
+  "difficulty": "hard",
+  "features": [
+   "creek",
+   "summit",
+   "switchbacks"
+  ],
+  "description": "Do not let the name fool you; it honors homesteader Elias Easy, not the terrain. The route gains over 2,600 feet in under four miles, much of it on loose, ankle-rolling rubble beside the creek's headwall. Search and rescue answers more calls here than on any comparable trail in the district."
+ },
+ {
+  "id": "trail-0075",
+  "name": "Chinle Badlands Trail",
+  "park": "Zion National Park",
+  "distance_mi": 8.2,
+  "elevation_ft": 640,
+  "difficulty": "moderate",
+  "features": [
+   "desert",
+   "petrified-wood",
+   "solitude"
+  ],
+  "description": "This southwest-desert route crosses banded clay hills strewn with petrified logs the size of park benches. There is no shade, no water, and rarely another hiker; in the right cool-season light it feels like walking on Mars. Collecting even a fingernail of petrified wood is a federal offense."
+ },
+ {
+  "id": "trail-0076",
+  "name": "Fishercap Narrows Path",
+  "park": "Glacier National Park",
+  "distance_mi": 1.4,
+  "elevation_ft": 85,
+  "difficulty": "easy",
+  "features": [
+   "lake",
+   "moose",
+   "family-friendly"
+  ],
+  "description": "A stub of trail leaves the motor inn parking lot and reaches a willow-ringed lake in under fifteen minutes. Dawn and dusk deliver moose so reliably that tripods line the shore like a gallery opening. Flat, short, and shaded, it asks almost nothing of your legs."
+ },
+ {
+  "id": "trail-0077",
+  "name": "Look Rock Tower Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 1.0,
+  "elevation_ft": 180,
+  "difficulty": "easy",
+  "features": [
+   "viewpoint",
+   "observation-tower",
+   "paved"
+  ],
+  "description": "A paved ramble along the Foothills Parkway climbs gently to an air-quality observation tower with a 360-degree deck. Haze permitting, the crest of the Smokies saw-tooths across the entire southern horizon. It is an ideal sunset walk since the return is short and smooth even by flashlight."
+ },
+ {
+  "id": "trail-0078",
+  "name": "May Lake Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 2.4,
+  "elevation_ft": 490,
+  "difficulty": "easy",
+  "features": [
+   "lake",
+   "high-sierra-camp",
+   "granite"
+  ],
+  "description": "A granite-slab path rises without drama to a lake pressed against Mount Hoffmann, the park's geographic center. The High Sierra Camp on the shore serves hikers lemonade in season. Families with kids who can handle a steady half-hour climb will find this the gentlest taste of the high country."
+ },
+ {
+  "id": "trail-0079",
+  "name": "Hunters Beach Trail",
+  "park": "Acadia National Park",
+  "distance_mi": 0.9,
+  "elevation_ft": 70,
+  "difficulty": "easy",
+  "features": [
+   "coastline",
+   "cobblestones",
+   "solitude"
+  ],
+  "description": "A brief woodland path along a brook empties onto a cobble beach where waves rattle the stones like applause. The rounded rocks shift underfoot, which is the closest thing to difficulty here. Few visitors find it, making this a fine spot to sit and watch the swell roll in."
+ },
+ {
+  "id": "trail-0080",
+  "name": "Chasm Lake Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 8.4,
+  "elevation_ft": 2380,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "alpine",
+   "cliff-views"
+  ],
+  "description": "The trail climbs past treeline into a hanging gorge beneath the Diamond, the sheerest big wall in the region. A final ledge scramble guards the lake, where climbers' headlamps sparkle on the face before dawn. Afternoon lightning above treeline is the real hazard; be descending by noon."
+ },
+ {
+  "id": "trail-0081",
+  "name": "Quartz Lake Loop",
+  "park": "Glacier National Park",
+  "distance_mi": 12.8,
+  "elevation_ft": 1850,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "solitude",
+   "forest",
+   "loop"
+  ],
+  "description": "This North Fork loop crosses a low divide to a chain of three lakes that most park visitors never hear named. The 2003 burn opened long views across snags silvering in the sun, with fireweed thick beneath them. Solitude is the draw; you will earn it with miles of rolling, rooty tread."
+ },
+ {
+  "id": "trail-0082",
+  "name": "Lava Point Rim Trail",
+  "park": "Zion National Park",
+  "distance_mi": 2.9,
+  "elevation_ft": 260,
+  "difficulty": "easy",
+  "features": [
+   "viewpoint",
+   "aspen",
+   "cool-summer"
+  ],
+  "description": "At nearly 7,900 feet, this rim walk stays comfortable when the main canyon swelters. Ponderosa and aspen shade a path that wanders out to ledges overlooking the entire park stepping down toward Arizona. The access road closes with snow, typically November through May."
+ },
+ {
+  "id": "trail-0083",
+  "name": "Eagle Lake Carriage Loop",
+  "park": "Acadia National Park",
+  "distance_mi": 6.1,
+  "elevation_ft": 275,
+  "difficulty": "easy",
+  "features": [
+   "lake",
+   "dog-friendly",
+   "carriage-road",
+   "cycling"
+  ],
+  "description": "Rockefeller's carriage roads circle the lake on a broad crushed-stone surface engineered so gently that the climbs barely register. Dogs on leash, cyclists, and horse-drawn carriages all share the loop amicably. Granite bridges and constant water views mark the miles; there is no bad section."
+ },
+ {
+  "id": "trail-0084",
+  "name": "Hen Wallow Falls Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 4.4,
+  "elevation_ft": 600,
+  "difficulty": "moderate",
+  "features": [
+   "cascades",
+   "hemlock",
+   "salamanders"
+  ],
+  "description": "From Cosby's quiet campground the trail contours through hemlock groves to a ninety-foot fan of water spreading over dark rock. Turn over a streamside stone (gently) and odds are a salamander stares back; the park holds more species than anywhere on Earth. The grade is steady but never cruel."
+ },
+ {
+  "id": "trail-0085",
+  "name": "Gaylor Lakes Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 3.0,
+  "elevation_ft": 560,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "alpine",
+   "mining-history"
+  ],
+  "description": "The trail wastes no time, cresting a 10,000-foot saddle in the first half mile before dropping to a basin of tarns and tundra. Ruins of a silver mining cabin from the 1870s stand above the upper lake. The thin air makes the short climb feel like twice its length; pause often and blame the altitude."
+ },
+ {
+  "id": "trail-0086",
+  "name": "Gunsight Lake Approach",
+  "park": "Glacier National Park",
+  "distance_mi": 12.4,
+  "elevation_ft": 1700,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "wildflowers",
+   "suspension-bridge"
+  ],
+  "description": "Dropping first to the St. Mary River, the trail runs a long valley floor of avalanche paths and cow parsnip before rising to a lake cupped beneath Gunsight Pass. A suspension bridge at the outlet sways with every step, to some hikers' delight and others' dread. Grizzlies frequent the brushy sections; make noise where sightlines shrink."
+ },
+ {
+  "id": "trail-0087",
+  "name": "Sprague Lake Loop",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 0.9,
+  "elevation_ft": 30,
+  "difficulty": "easy",
+  "features": [
+   "lake",
+   "accessible",
+   "family-friendly",
+   "reflections"
+  ],
+  "description": "A level gravel loop, fully wheelchair accessible, circles a shallow lake positioned perfectly to mirror Hallett Peak at sunrise. Benches every few hundred feet invite unhurried mornings. It may be the highest reward-to-effort ratio in the park."
+ },
+ {
+  "id": "trail-0088",
+  "name": "Hop Valley Trail",
+  "park": "Zion National Park",
+  "distance_mi": 6.6,
+  "elevation_ft": 1050,
+  "difficulty": "moderate",
+  "features": [
+   "canyon",
+   "meadow",
+   "backpacking"
+  ],
+  "description": "After a sagebrush mesa, the trail sinks into a flat-floored valley walled in salmon sandstone, with a lazy creek braided through grazing meadows. Deep sand and cattle gates slow the pace more than the elevation change does. Backpackers use it as the scenic doorway to Kolob Arch."
+ },
+ {
+  "id": "trail-0089",
+  "name": "Spruce Flats Falls Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 1.9,
+  "elevation_ft": 410,
+  "difficulty": "moderate",
+  "features": [
+   "waterfall-adjacent",
+   "swimming-hole",
+   "family-friendly"
+  ],
+  "description": "An unofficial but well-loved path behind the Tremont institute climbs a rooty ridge, then drops to a thirty-foot falls with a wadeable pool. Kids from the science camps have christened every boulder with a name. The final descent is rough enough to warrant good shoes."
+ },
+ {
+  "id": "trail-0090",
+  "name": "Ouzel Falls Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 5.4,
+  "elevation_ft": 950,
+  "difficulty": "moderate",
+  "features": [
+   "waterfall",
+   "river",
+   "forest"
+  ],
+  "description": "Wild Basin's showpiece passes three named waterfalls, saving the forty-foot plunge of Ouzel for the turnaround. Bridges cross and recross a creek that never leaves earshot. The dipper birds the falls are named for bob on midstream rocks, then walk straight underwater to feed."
+ },
+ {
+  "id": "trail-0091",
+  "name": "Otokomi Lake Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 10.4,
+  "elevation_ft": 1900,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "gorge",
+   "solitude"
+  ],
+  "description": "From Rising Sun the trail shadows Rose Creek's red-rock gorge, where the water has cut bathtubs and chutes into crimson stone. The lake at the top sits in a stern little cirque that holds ice into July. It draws a fraction of the traffic of the marquee hikes across the road."
+ },
+ {
+  "id": "trail-0092",
+  "name": "Tenaya Lake Circuit",
+  "park": "Yosemite National Park",
+  "distance_mi": 2.7,
+  "elevation_ft": 110,
+  "difficulty": "easy",
+  "features": [
+   "lake",
+   "beach",
+   "granite"
+  ],
+  "description": "A nearly flat loop rings a lake the Ahwahneechee called Pywiack, sleeping water, set in a bowl of polished domes. The east beach's white sand could pass for the tropics until you touch the water. Boardwalk sections protect the fragile meadow on the western shore."
+ },
+ {
+  "id": "trail-0093",
+  "name": "Penobscot Mountain via Spring Trail",
+  "park": "Acadia National Park",
+  "distance_mi": 5.2,
+  "elevation_ft": 1050,
+  "difficulty": "hard",
+  "features": [
+   "summit",
+   "ledges",
+   "viewpoint"
+  ],
+  "description": "Granite handholds and one iron rung get you up the initial cliff band; after that, open ledges roll all the way to the summit. Jordan Pond shrinks to a puddle of blue glass below. Descend via the Deer Brook trail to make a loop and spare your knees the ledges in reverse."
+ },
+ {
+  "id": "trail-0094",
+  "name": "Northgate Peaks Trail",
+  "park": "Zion National Park",
+  "distance_mi": 4.2,
+  "elevation_ft": 220,
+  "difficulty": "easy",
+  "features": [
+   "viewpoint",
+   "ponderosa",
+   "solitude"
+  ],
+  "description": "A soft, level path through ponderosa parkland ends at a lava knoll between two white sandstone domes. The North Guardian Angel fills the gap ahead like a held breath. High elevation keeps the walk pleasant all summer, and hardly anyone is ever on it."
+ },
+ {
+  "id": "trail-0095",
+  "name": "Middle Prong Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 8.3,
+  "elevation_ft": 1140,
+  "difficulty": "moderate",
+  "features": [
+   "cascades",
+   "railroad-grade",
+   "history"
+  ],
+  "description": "A wide railbed grade climbs alongside a boisterous river that runs cascade to pool for miles. Rusting relics of the Little River Lumber Company, including a Cadillac chassis, molder in the rhododendron. Because the grade is engineered for trains, the climbing never feels abrupt."
+ },
+ {
+  "id": "trail-0096",
+  "name": "Scenic Point Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 7.8,
+  "elevation_ft": 2350,
+  "difficulty": "hard",
+  "features": [
+   "viewpoint",
+   "alpine",
+   "prairie-views"
+  ],
+  "description": "Switchbacks climb through gnarled, ancient limber pines onto a barren rock shoulder where the mountains simply stop and the Great Plains begin. The prairie stretches east until the horizon gives out. Wind here has flattened tents and dignity alike; hold onto everything."
+ },
+ {
+  "id": "trail-0097",
+  "name": "Wawona Meadow Loop",
+  "park": "Yosemite National Park",
+  "distance_mi": 3.5,
+  "elevation_ft": 200,
+  "difficulty": "easy",
+  "features": [
+   "meadow",
+   "wildflowers",
+   "historic-district"
+  ],
+  "description": "An old carriage track circles a meadow ringed by incense cedar, passing behind the Victorian hotel grounds. Leashed pets are allowed on this particular loop, an anomaly visitors rarely discover. Spring turns the meadow to a sheet of lupine and buttercup."
+ },
+ {
+  "id": "trail-0098",
+  "name": "Mills Lake Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 5.6,
+  "elevation_ft": 750,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "viewpoint",
+   "photography"
+  ],
+  "description": "Glacier Gorge frames this lake so photogenically that its shoreline slabs host a quiet competition for tripod space each evening. The climb up is steady but broken by flat reprieves past Alberta Falls. Many continue to Jewel Lake, ten minutes beyond, and have it to themselves."
+ },
+ {
+  "id": "trail-0099",
+  "name": "Bass Harbor Head Light Path",
+  "park": "Acadia National Park",
+  "distance_mi": 0.6,
+  "elevation_ft": 55,
+  "difficulty": "easy",
+  "features": [
+   "lighthouse",
+   "coastline",
+   "sunset"
+  ],
+  "description": "Wooden stairs descend to wave-washed ledges below the island's only lighthouse. At sunset the light glows against pink granite while surf booms in the chasm; expect plenty of company with cameras. The stairs are steep but short, over in two minutes."
+ },
+ {
+  "id": "trail-0100",
+  "name": "Piegan Pass Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 9.0,
+  "elevation_ft": 1750,
+  "difficulty": "hard",
+  "features": [
+   "pass",
+   "alpine",
+   "glacier-views"
+  ],
+  "description": "From Siyeh Bend the trail rises through cathedral spruce, crosses wildflower shelves, and tops a barren saddle staring into the Cataract Creek amphitheater. Piegan Glacier hangs on the wall to the west, close enough to hear meltwater. Descending the far side to Many Glacier turns it into a legendary point-to-point."
+ },
+ {
+  "id": "trail-0101",
+  "name": "Clouds Rest Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 14.5,
+  "elevation_ft": 3110,
+  "difficulty": "hard",
+  "features": [
+   "summit",
+   "viewpoint",
+   "narrow-ridge"
+  ],
+  "description": "The summit ridge narrows to a spine of stacked granite blocks with the world falling away on both sides. From the top, Half Dome sits a thousand feet below you, a perspective that rearranges your sense of the valley. Fit hikers manage it from Sunrise Lakes trailhead in a long day; nobody manages it casually."
+ },
+ {
+  "id": "trail-0102",
+  "name": "Pa'rus Riverside Trail",
+  "park": "Zion National Park",
+  "distance_mi": 3.5,
+  "elevation_ft": 130,
+  "difficulty": "easy",
+  "features": [
+   "river",
+   "dog-friendly",
+   "paved",
+   "cycling",
+   "accessible"
+  ],
+  "description": "The only trail in the canyon that welcomes leashed dogs and bicycles, this paved riverside path drifts from the visitor center to Canyon Junction with no grade worth mentioning. Bridges cross the Virgin River four times, each offering a fresh angle on the Watchman. Sunset turns the whole corridor copper."
+ },
+ {
+  "id": "trail-0103",
+  "name": "Hole-in-the-Wall Overlook",
+  "park": "Glacier National Park",
+  "distance_mi": 15.4,
+  "elevation_ft": 2900,
+  "difficulty": "hard",
+  "features": [
+   "cirque",
+   "backcountry",
+   "wildflowers"
+  ],
+  "description": "Deep in the park's northwest corner, this route reaches a hanging garden cirque that backpackers speak about in reverent tones. Waterfalls thread down every wall in early summer. The distance and remoteness make it a backpacking objective; day-hiking it is possible only for the truly driven."
+ },
+ {
+  "id": "trail-0104",
+  "name": "Clingmans Dome Bypass Loop",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 1.2,
+  "elevation_ft": 330,
+  "difficulty": "moderate",
+  "features": [
+   "summit",
+   "observation-tower",
+   "spruce-fir"
+  ],
+  "description": "The paved ramp to the highest point in the park is short but unapologetically sharp; benches along the way see heavy use. The flying-saucer tower on top lifts you above the spruce for a seven-state view on the clearest days. Weather changes fast at 6,600 feet, and the summit is often inside a cloud."
+ },
+ {
+  "id": "trail-0105",
+  "name": "Emerald Lake Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 3.6,
+  "elevation_ft": 700,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "family-friendly",
+   "photography"
+  ],
+  "description": "Three lakes in under two miles, each a step up in drama, ending in a tarn pinched between Hallett Peak and Flattop's cliffs. Its popularity is fully deserved and fully realized; the shuttle is mandatory in summer for good reason. Winter transforms it into a snowshoe corridor of hushed white."
+ },
+ {
+  "id": "trail-0106",
+  "name": "Compass Harbor Trail",
+  "park": "Acadia National Park",
+  "distance_mi": 0.8,
+  "elevation_ft": 40,
+  "difficulty": "easy",
+  "features": [
+   "coastline",
+   "history",
+   "solitude"
+  ],
+  "description": "A gentle wooded lane leads to the ruined foundations of Old Farm, George Dorr's estate, and a quiet cove where he swam daily into his eighties. Locals walk it at lunch; tourists mostly miss it. The footing is smooth and the sea does the rest."
+ },
+ {
+  "id": "trail-0107",
+  "name": "Granite Park via the Loop",
+  "park": "Glacier National Park",
+  "distance_mi": 8.4,
+  "elevation_ft": 2200,
+  "difficulty": "hard",
+  "features": [
+   "historic-chalet",
+   "burn-zone",
+   "viewpoint"
+  ],
+  "description": "The trail climbs from the road's hairpin through the 2003 burn, where silver snags frame Heavens Peak like intentional sculpture. Granite Park Chalet at the top sells lemonade and bunk space to those who booked months out. There is little shade the entire way; this climb belongs to morning."
+ },
+ {
+  "id": "trail-0108",
+  "name": "Virginia Falls Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 3.6,
+  "elevation_ft": 520,
+  "difficulty": "moderate",
+  "features": [
+   "waterfall",
+   "creek",
+   "family-friendly"
+  ],
+  "description": "Three waterfalls in under two miles, with Virginia's fifty-foot main plunge as the crescendo behind a cooling veil of spray. The path climbs in short, manageable stages between falls, so children set the pace naturally. Midday light throws rainbows into the mist at St. Mary Falls."
+ },
+ {
+  "id": "trail-0109",
+  "name": "North Dome via Indian Rock",
+  "park": "Yosemite National Park",
+  "distance_mi": 9.0,
+  "elevation_ft": 1450,
+  "difficulty": "moderate",
+  "features": [
+   "viewpoint",
+   "arch",
+   "granite"
+  ],
+  "description": "The route contours the north rim to a dome staring straight into Half Dome's face from across the valley. A short spur climbs to Indian Rock, the park's only visitable rock arch. Most of the effort comes on the return, when the trailhead sits uphill of you the whole way home."
+ },
+ {
+  "id": "trail-0110",
+  "name": "Angels Landing via West Rim",
+  "park": "Zion National Park",
+  "distance_mi": 5.4,
+  "elevation_ft": 1488,
+  "difficulty": "hard",
+  "features": [
+   "exposure",
+   "chains",
+   "viewpoint",
+   "permit-required"
+  ],
+  "description": "Walter's Wiggles switchback up to Scout Lookout, where the famous chain-assisted spine begins and the faint of heart wisely picnic instead. The final half mile crosses fins with thousand-foot drops on both sides. Permits are required for the chains section, allocated by lottery."
+ },
+ {
+  "id": "trail-0111",
+  "name": "Big Creek Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 10.6,
+  "elevation_ft": 1390,
+  "difficulty": "moderate",
+  "features": [
+   "swimming-hole",
+   "creek",
+   "backpacking"
+  ],
+  "description": "An old railbed rises so gradually beside Big Creek that the miles accumulate without complaint. Midnight Hole, a deep emerald pool beneath twin boulders, is the finest swimming spot in the park, and Mouse Creek Falls waits a half mile beyond it. Horse traffic shares the route on weekends."
+ },
+ {
+  "id": "trail-0112",
+  "name": "Timber Lake Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 9.6,
+  "elevation_ft": 2060,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "west-side",
+   "solitude",
+   "wildflowers"
+  ],
+  "description": "The west side of the park absorbs far less traffic, and this steady forest climb to a subalpine lake shows why patient hikers love it anyway. Columbine crowds the avalanche chutes in July. Moose outnumber people on weekday mornings."
+ },
+ {
+  "id": "trail-0113",
+  "name": "Numa Ridge Lookout Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 11.2,
+  "elevation_ft": 2930,
+  "difficulty": "hard",
+  "features": [
+   "fire-lookout",
+   "viewpoint",
+   "solitude"
+  ],
+  "description": "From Bowman Lake the trail switchbacks with grim persistence to a staffed fire lookout on the ridge crest. The lookout's occupants often share their water and always share the view, which sweeps from the lake to the jagged Livingston Range. Expect to meet more grouse than hikers."
+ },
+ {
+  "id": "trail-0114",
+  "name": "Ledges Ocean Traverse",
+  "park": "Acadia National Park",
+  "distance_mi": 2.2,
+  "elevation_ft": 150,
+  "difficulty": "moderate",
+  "features": [
+   "coastline",
+   "ledges",
+   "birding"
+  ],
+  "description": "This lesser-known shore route hops granite shelves past surge channels that thump like drums in heavy swell. Eiders and guillemots raft in the coves through winter. Wet rock near the waterline is treacherously slick with algae; stay above the black zone."
+ },
+ {
+  "id": "trail-0115",
+  "name": "Half Dome via Mist Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 15.0,
+  "elevation_ft": 4800,
+  "difficulty": "hard",
+  "features": [
+   "cables",
+   "waterfall-views",
+   "permit-required",
+   "summit"
+  ],
+  "description": "The park's signature endurance test climbs past two waterfalls before the granted-by-lottery cables haul you up the final four hundred feet of bare granite. Start before dawn; afternoon storms on the cables are a well-documented way to die. Summiting changes how people talk about themselves for years."
+ },
+ {
+  "id": "trail-0116",
+  "name": "Baskins Creek Falls Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 3.1,
+  "elevation_ft": 720,
+  "difficulty": "moderate",
+  "features": [
+   "waterfall-adjacent",
+   "solitude",
+   "off-trail-feel"
+  ],
+  "description": "Hidden off the Roaring Fork motor loop, this path descends first and climbs on the way home, a sequencing that surprises the unprepared. The thirty-five-foot falls pours into a quiet grotto that rarely hosts more than one party at a time. Faded blazes demand a little attention at the ridge junction."
+ },
+ {
+  "id": "trail-0117",
+  "name": "Avalanche Lake Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 4.6,
+  "elevation_ft": 730,
+  "difficulty": "moderate",
+  "features": [
+   "waterfall",
+   "lake",
+   "gorge",
+   "family-friendly"
+  ],
+  "description": "After a footbridge crossing near the mouth of Avalanche Gorge, where the creek churns through sculpted blue-green stone, the trail climbs at a friendly grade through hemlock and cedar. It ends at a lake walled by two-thousand-foot cliffs streaked with ribbon waterfalls fed by Sperry Glacier. Arrive early; the small trailhead lot fills before nine all summer."
+ },
+ {
+  "id": "trail-0118",
+  "name": "Observation Point via East Mesa",
+  "park": "Zion National Park",
+  "distance_mi": 6.8,
+  "elevation_ft": 695,
+  "difficulty": "moderate",
+  "features": [
+   "viewpoint",
+   "mesa",
+   "back-route"
+  ],
+  "description": "The back-door route across the mesa reaches the canyon's best overlook while dodging the brutal switchbacks of the historic route below. Most of the walking is level sand and pine needles. From the point, you look down on Angels Landing, which recalibrates everyone's photos."
+ },
+ {
+  "id": "trail-0119",
+  "name": "Lulu City Ghost Town Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 7.4,
+  "elevation_ft": 850,
+  "difficulty": "moderate",
+  "features": [
+   "history",
+   "river",
+   "meadow"
+  ],
+  "description": "The Colorado River, narrow enough to step across here, leads north to the scattered cabin ruins of an 1880s silver boomtown. The grade is mild and the meadows generous with moose. Interpretive signs do honest work explaining how thoroughly the boom went bust."
+ },
+ {
+  "id": "trail-0120",
+  "name": "Lembert Dome Loop",
+  "park": "Yosemite National Park",
+  "distance_mi": 2.8,
+  "elevation_ft": 850,
+  "difficulty": "moderate",
+  "features": [
+   "granite-dome",
+   "viewpoint",
+   "sunset"
+  ],
+  "description": "The walk-up route circles behind a dome whose bald crown surveys all of Tuolumne Meadows. Final slabs require hands-in-pockets friction walking that thrills some and unsettles others. Watch the meadow flood with gold light at day's end, then descend before dark."
+ },
+ {
+  "id": "trail-0121",
+  "name": "Cracker Lake Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 12.2,
+  "elevation_ft": 1400,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "color",
+   "mining-history"
+  ],
+  "description": "The lake's milk-turquoise color looks fake in photographs and even faker in person, a trick of glacial flour beneath the sheer face of Mount Siyeh. The trail shares its first miles with horse concessions, so mind your step. Ruins of a hopeless 1900s mine rust at the head of the lake."
+ },
+ {
+  "id": "trail-0122",
+  "name": "Mount Cammerer via Low Gap",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 11.1,
+  "elevation_ft": 3045,
+  "difficulty": "hard",
+  "features": [
+   "fire-lookout",
+   "viewpoint",
+   "AT-section"
+  ],
+  "description": "A punishing climb to the state-line ridge earns you a restored octagonal stone fire lookout perched on a rocky knuckle. The tower's wraparound deck delivers the finest view in the park's northeast quadrant. The descent is long enough for lengthy conversation about your life choices."
+ },
+ {
+  "id": "trail-0123",
+  "name": "Champlain North Ridge Trail",
+  "park": "Acadia National Park",
+  "distance_mi": 3.3,
+  "elevation_ft": 940,
+  "difficulty": "moderate",
+  "features": [
+   "summit",
+   "ledges",
+   "ocean-views"
+  ],
+  "description": "Open granite from nearly the first step, this ridge climbs with the whole of Frenchman Bay unrolling behind you as incentive to keep pausing. The rock bakes pleasantly on autumn afternoons. Descend via the Bowl to skip retracing and to visit a glacial tarn."
+ },
+ {
+  "id": "trail-0124",
+  "name": "Subway Bottom-Up Route",
+  "park": "Zion National Park",
+  "distance_mi": 9.5,
+  "elevation_ft": 1000,
+  "difficulty": "hard",
+  "features": [
+   "canyon",
+   "creek",
+   "permit-required",
+   "photography"
+  ],
+  "description": "The route follows Left Fork's boulder-choked creekbed to a tubular slot where light bounces emerald off curved walls. There is no maintained trail; it is scrambling, wading, and route-finding all day. Permits are limited and the drainage becomes lethal in flash-flood conditions."
+ },
+ {
+  "id": "trail-0125",
+  "name": "Rainbow Falls Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 5.4,
+  "elevation_ft": 1600,
+  "difficulty": "hard",
+  "features": [
+   "waterfall",
+   "rocky",
+   "winter-ice"
+  ],
+  "description": "LeConte Creek's eighty-foot free fall throws mist that paints an afternoon rainbow across the amphitheater when the sun cooperates. The trail up is rocky and relentless, harder than its mileage advertises. In deep winter the falls freezes into an hourglass of ice worth the cold fingers."
+ },
+ {
+  "id": "trail-0126",
+  "name": "Poia Lake Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 13.0,
+  "elevation_ft": 1770,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "solitude",
+   "pass"
+  ],
+  "description": "Crossing Swiftcurrent Ridge, the trail drops into a drainage that most Many Glacier visitors never sample, ending at a lake rimmed with reeds. Solitude is nearly guaranteed on weekdays. The return climb over the ridge lands late in the day, when legs have opinions."
+ },
+ {
+  "id": "trail-0127",
+  "name": "Merced Grove Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 3.0,
+  "elevation_ft": 550,
+  "difficulty": "moderate",
+  "features": [
+   "giant-sequoias",
+   "solitude",
+   "forest"
+  ],
+  "description": "The smallest and quietest of the park's three sequoia groves hides two dozen giants at the bottom of an old roadbed. The walk out is all downhill, which means the walk back is not; pace yourself accordingly. Winter snowshoers often have the grove entirely to themselves."
+ },
+ {
+  "id": "trail-0128",
+  "name": "Flattop Mountain Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 8.8,
+  "elevation_ft": 2850,
+  "difficulty": "hard",
+  "features": [
+   "summit",
+   "tundra",
+   "continental-divide"
+  ],
+  "description": "Switchbacks rise methodically out of the trees and onto tundra, topping out on the Continental Divide's broad, stony back. From the flat summit, routes fan out to Hallett Peak and the western valleys. Marmots patrol the upper trail like toll collectors, and the wind never fully stops."
+ },
+ {
+  "id": "trail-0129",
+  "name": "Seawall Bog Boardwalk",
+  "park": "Acadia National Park",
+  "distance_mi": 1.6,
+  "elevation_ft": 35,
+  "difficulty": "easy",
+  "features": [
+   "boardwalk",
+   "bog",
+   "birding",
+   "accessible"
+  ],
+  "description": "Planks float you over a sphagnum bog studded with pitcher plants and sundews, carnivores in miniature. Interpretive stops explain ten thousand years of peat beneath your feet. Level, smooth, and short, it suits every mobility level and rewards slow walkers most."
+ },
+ {
+  "id": "trail-0130",
+  "name": "Firebrand Pass Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 9.8,
+  "elevation_ft": 2200,
+  "difficulty": "hard",
+  "features": [
+   "pass",
+   "solitude",
+   "aspen"
+  ],
+  "description": "Beginning at an unmarked pullout off Highway 2, this southern route climbs through aspen parks and beargrass to a windswept gap on the divide. Its obscurity is its gift: even in August you may summit alone. Golden eagles ride the pass's updrafts during fall migration."
+ },
+ {
+  "id": "trail-0131",
+  "name": "Gatlinburg Gateway Greenway",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 1.9,
+  "elevation_ft": 95,
+  "difficulty": "easy",
+  "features": [
+   "river",
+   "dog-friendly",
+   "paved",
+   "accessible"
+  ],
+  "description": "This paved corridor along the park boundary follows the river from the Sugarlands area toward town, and leashed pets are welcome the whole way. The grade never exceeds a wheelchair-friendly ramp. Rosebay rhododendron blooms wall the path in white through early July."
+ },
+ {
+  "id": "trail-0132",
+  "name": "Elizabeth Lake Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 4.8,
+  "elevation_ft": 850,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "alpine",
+   "peak-views"
+  ],
+  "description": "Starting behind the Tuolumne campground, the path climbs through lodgepole at a grade that lets conversation continue, arriving at a lake beneath the fluted face of Unicorn Peak. Brook trout dimple the surface at dusk. Snow patches guard the shoreline well into July most years."
+ },
+ {
+  "id": "trail-0133",
+  "name": "Watchman Canyon Connector",
+  "park": "Zion National Park",
+  "distance_mi": 2.7,
+  "elevation_ft": 190,
+  "difficulty": "easy",
+  "features": [
+   "desert",
+   "river",
+   "family-friendly"
+  ],
+  "description": "Linking the campgrounds to the shuttle hub, this flat connector doubles as a pleasant cottonwood-shaded stroll along the river's east bank. Mule deer browse the campground fringe at dusk without much concern for audiences. It is a practical trail that turns out to be a pretty one."
+ },
+ {
+  "id": "trail-0134",
+  "name": "Odessa Lake via Fern Lake Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 9.0,
+  "elevation_ft": 1900,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "waterfall-adjacent",
+   "burn-zone"
+  ],
+  "description": "The route ascends past Fern Falls into terrain scarred by the 2020 fire, where wildflowers now riot among blackened trunks. Odessa sits in a notch beneath Notchtop's blade. Deadfall occasionally crosses the upper trail before crews clear it each summer."
+ },
+ {
+  "id": "trail-0135",
+  "name": "Belly River Ranger Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 12.6,
+  "elevation_ft": 1450,
+  "difficulty": "moderate",
+  "features": [
+   "river",
+   "meadow",
+   "backcountry",
+   "history"
+  ],
+  "description": "Dropping from Chief Mountain Customs, the trail descends into a valley of sweeping hay meadows and a working 1925 ranger station with its own barn and corral. The grade is gentle in miles-long stretches; the difficulty is the climb back out at day's end. This drainage feels older and quieter than anywhere reachable by road."
+ },
+ {
+  "id": "trail-0136",
+  "name": "Sugarland Mountain Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 12.1,
+  "elevation_ft": 2800,
+  "difficulty": "hard",
+  "features": [
+   "ridgeline",
+   "solitude",
+   "old-growth"
+  ],
+  "description": "A long ridge run connecting the park's busiest road to its highest crest, walked in its entirety by almost no one. Stretches of untouched old-growth alternate with heath balds and huckleberry tangles. Water sources are scarce and far between; plan like a backpacker even on a day trip."
+ },
+ {
+  "id": "trail-0137",
+  "name": "Snow Creek Switchbacks",
+  "park": "Yosemite National Park",
+  "distance_mi": 9.4,
+  "elevation_ft": 2700,
+  "difficulty": "hard",
+  "features": [
+   "switchbacks",
+   "viewpoint",
+   "solitude"
+  ],
+  "description": "One hundred eight switchbacks climb the valley's northeast wall, a staircase that rewards masochists with the emptiest great view in the park. Half Dome and Clouds Rest stand shoulder to shoulder across Tenaya Canyon. Almost nobody is ever on it, which tells you something about the grade."
+ },
+ {
+  "id": "trail-0138",
+  "name": "Asticou Ridge Path",
+  "park": "Acadia National Park",
+  "distance_mi": 2.4,
+  "elevation_ft": 420,
+  "difficulty": "moderate",
+  "features": [
+   "ledges",
+   "gardens",
+   "viewpoint"
+  ],
+  "description": "From the azalea garden the path climbs granite steps laid by hand a century ago, cresting on ledges above Northeast Harbor's sailboat fleet. Memorial plaques mark the route's Gilded Age benefactors. Spring visits pair the climb with the garden's bloom below."
+ },
+ {
+  "id": "trail-0139",
+  "name": "Bridalveil Fall Loop",
+  "park": "Yosemite National Park",
+  "distance_mi": 1.2,
+  "elevation_ft": 160,
+  "difficulty": "easy",
+  "features": [
+   "waterfall",
+   "family-friendly",
+   "paved"
+  ],
+  "description": "The recently rebuilt loop delivers you to the base of a six-hundred-foot fall the Ahwahneechee called Pohono, spirit of the puffing wind, for how gusts snatch the water sideways. Paved paths and boardwalk handle strollers well. Spring spray reaches the viewing area with enough force to fog every lens."
+ },
+ {
+  "id": "trail-0140",
+  "name": "Cable Mountain Rim Route",
+  "park": "Zion National Park",
+  "distance_mi": 7.6,
+  "elevation_ft": 950,
+  "difficulty": "moderate",
+  "features": [
+   "viewpoint",
+   "history",
+   "mesa"
+  ],
+  "description": "Across the east mesa, the trail arrives at the wooden headframe of a 1901 cableworks that once lowered lumber two thousand feet to the canyon floor. The structure still leans over the void, fenced but photogenic. The plateau walking is sandy, level, and blessedly uncrowded."
+ },
+ {
+  "id": "trail-0141",
+  "name": "Akaiyan Falls via Sperry Junction",
+  "park": "Glacier National Park",
+  "distance_mi": 8.0,
+  "elevation_ft": 2900,
+  "difficulty": "hard",
+  "features": [
+   "cascades",
+   "alpine",
+   "goats"
+  ],
+  "description": "Branching from the chalet route, this spur climbs stone staircases into a hanging basin where meltwater falls in braided tiers. Mountain goats loiter on the switchbacks with an entitlement born of protection. Snowfields hide the upper trail into midsummer, so an ice axe is not paranoia in June."
+ },
+ {
+  "id": "trail-0142",
+  "name": "Longs Peak Keyhole Route",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 14.8,
+  "elevation_ft": 5000,
+  "difficulty": "hard",
+  "features": [
+   "summit",
+   "scramble",
+   "exposure",
+   "alpine-start"
+  ],
+  "description": "Beyond the Keyhole, the route stops being a hike and becomes a ledged, exposed scramble marked by painted bullseyes across cliffbands. Most successful parties start at 3 a.m. to beat afternoon lightning. It is the hardest thing in this catalog, and it turns back more than half who try."
+ },
+ {
+  "id": "trail-0143",
+  "name": "Cataloochee Divide Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 8.9,
+  "elevation_ft": 1420,
+  "difficulty": "moderate",
+  "features": [
+   "ridgeline",
+   "elk",
+   "fence-line"
+  ],
+  "description": "The trail rides the park boundary fence through open oak woods, with pastoral valley views alternating side to side. Elk bugling echoes up from Cataloochee Valley on September evenings. Grades roll rather than climb, making the miles friendlier than the total suggests."
+ },
+ {
+  "id": "trail-0144",
+  "name": "Red Eagle Lake Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 15.0,
+  "elevation_ft": 1100,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "prairie-transition",
+   "suspension-bridge",
+   "solitude"
+  ],
+  "description": "Long but never steep, the route rolls through aspen groves and old burn from St. Mary toward a lake pressed against the mountain front. Two suspension bridges cross Red Eagle Creek in quick succession. The mileage filters crowds better than any gate could."
+ },
+ {
+  "id": "trail-0145",
+  "name": "Tuolumne Grove Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 2.5,
+  "elevation_ft": 500,
+  "difficulty": "moderate",
+  "features": [
+   "giant-sequoias",
+   "tunnel-tree",
+   "family-friendly"
+  ],
+  "description": "A retired stretch of the Old Big Oak Flat Road descends to a sequoia grove featuring a dead tunnel tree you can still walk through. Children treat the tunnel as the entire point of the trip. Remember that the return is uphill the whole way; carry water even in shoulder season."
+ },
+ {
+  "id": "trail-0146",
+  "name": "Canyon Overlook Trail",
+  "park": "Zion National Park",
+  "distance_mi": 1.0,
+  "elevation_ft": 163,
+  "difficulty": "easy",
+  "features": [
+   "viewpoint",
+   "sunrise",
+   "family-friendly"
+  ],
+  "description": "Just past the tunnel's east portal, a short route of carved steps and railed ledges pops out five hundred feet above the switchbacks of Pine Creek Canyon. It is the park's best effort-to-view bargain and everyone knows it; the tiny lot fills by sunrise. The drop-offs are railed but real, so keep children in hand."
+ },
+ {
+  "id": "trail-0147",
+  "name": "Norumbega Mountain Goat Trail",
+  "park": "Acadia National Park",
+  "distance_mi": 2.5,
+  "elevation_ft": 640,
+  "difficulty": "hard",
+  "features": [
+   "ledges",
+   "steep-ascent",
+   "forest"
+  ],
+  "description": "The ascent goes straight up the fall line with no switchbacks, hands helpful on the pitchy granite from the first minutes. The wooded summit hides its views until ledges near the south end open over Somes Sound. Descend by the gentler Golf Course route to make a sane loop."
+ },
+ {
+  "id": "trail-0148",
+  "name": "Ypsilon Lake Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 9.0,
+  "elevation_ft": 2180,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "forest",
+   "solitude"
+  ],
+  "description": "After crossing the Roaring River's flood-scarred alluvial fan, the trail climbs long wooded ramps to a dark lake beneath Ypsilon Mountain's Y-shaped couloirs. Chipmunk Lake, a pond en route, mirrors the peak better than the destination does. Crowds thin dramatically past the fan."
+ },
+ {
+  "id": "trail-0149",
+  "name": "Deep Creek Waterfall Loop",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 2.4,
+  "elevation_ft": 350,
+  "difficulty": "easy",
+  "features": [
+   "cascades",
+   "tubing",
+   "family-friendly"
+  ],
+  "description": "Three modest waterfalls in a single short loop make this the park's best value for families with young kids. Summer crowds float the lower creek in rented tubes, whooping their way past hikers. The wide gravel path forgives sneakers and strollers alike below Indian Creek Falls."
+ },
+ {
+  "id": "trail-0150",
+  "name": "Lily Lake Loop",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 0.8,
+  "elevation_ft": 40,
+  "difficulty": "easy",
+  "features": [
+   "lake",
+   "dog-friendly",
+   "accessible",
+   "birding"
+  ],
+  "description": "This level gravel loop sits just outside the fee boundary, which means leashed dogs may join, an exception locals prize. Longs Peak looms over the water, and red-winged blackbirds run the cattail margins all summer. Benches and smooth tread welcome wheelchairs, strollers, and anyone easing back into walking."
+ },
+ {
+  "id": "trail-0151",
+  "name": "Cobalt Lake Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 11.4,
+  "elevation_ft": 1400,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "waterfall-adjacent",
+   "wildflowers"
+  ],
+  "description": "Two Medicine's long southern valley walk passes Rockwell Falls before climbing a headwall of beargrass to a lake the color of its name. The grade arrives late and all at once, but by then the destination is close. Weekday hikers frequently have the shoreline boulders to themselves."
+ },
+ {
+  "id": "trail-0152",
+  "name": "El Capitan Meadow Walk",
+  "park": "Yosemite National Park",
+  "distance_mi": 1.8,
+  "elevation_ft": 40,
+  "difficulty": "easy",
+  "features": [
+   "meadow",
+   "climbing-viewing",
+   "river"
+  ],
+  "description": "A flat meadow wander beneath the largest granite monolith on the continent, where binoculars reveal climbers as fleck-sized dots mid-wall. Evening brings headlamps blinking on the face like low stars. Stay on paths; the meadow is loved nearly to death."
+ },
+ {
+  "id": "trail-0153",
+  "name": "Grapevine Spring Trail",
+  "park": "Zion National Park",
+  "distance_mi": 3.9,
+  "elevation_ft": 340,
+  "difficulty": "easy",
+  "features": [
+   "desert",
+   "spring",
+   "solitude"
+  ],
+  "description": "An old ranch track ambles across the desert bench to a cottonwood-shaded seep where birdsong replaces crowd noise entirely. The walking is soft and level nearly throughout. Come in cooler months; summer afternoons on this exposed bench are not negotiable."
+ },
+ {
+  "id": "trail-0154",
+  "name": "Twin Creeks Nature Path",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 2.3,
+  "elevation_ft": 260,
+  "difficulty": "easy",
+  "features": [
+   "creek",
+   "wildflowers",
+   "science-center"
+  ],
+  "description": "Linking Gatlinburg to the research center, this quiet path crosses branch after branch of clear water under tulip poplars. Researchers' phenology flags dot the roadside plots, tracking bloom dates year over year. It is a modest, pleasant walk that most tourists drive right past."
+ },
+ {
+  "id": "trail-0155",
+  "name": "Tundra Communities Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 1.1,
+  "elevation_ft": 260,
+  "difficulty": "moderate",
+  "features": [
+   "tundra",
+   "paved",
+   "interpretive",
+   "viewpoint"
+  ],
+  "description": "A paved path at 12,000 feet climbs past mushroom-shaped rock outcrops to plaques explaining the tundra's centuries-slow patience. The altitude turns a stroll into a cardio event for unacclimated lungs. Stay on the pavement; a single footprint here outlives the person who left it."
+ },
+ {
+  "id": "trail-0156",
+  "name": "Schooner Head Overlook Path",
+  "park": "Acadia National Park",
+  "distance_mi": 1.2,
+  "elevation_ft": 85,
+  "difficulty": "easy",
+  "features": [
+   "coastline",
+   "overlook",
+   "solitude"
+  ],
+  "description": "A short wooded link drops from the overlook parking area to cliffs above Anemone Cave's churning entrance. Surf explodes against the headwall in east swells, best watched a respectful distance back. Most traffic stays on the Park Loop Road, missing this entirely."
+ },
+ {
+  "id": "trail-0157",
+  "name": "Pitamakan Pass Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 13.6,
+  "elevation_ft": 2400,
+  "difficulty": "hard",
+  "features": [
+   "pass",
+   "lakes",
+   "alpine"
+  ],
+  "description": "The northern half of the celebrated Two Medicine loop stacks four lakes below the trail like descending stair treads. At the pass, the tread narrows across a rock face that focuses the attention wonderfully. Combine with Dawson Pass only if your legs have already had a good season."
+ },
+ {
+  "id": "trail-0158",
+  "name": "Swinging Bridge Loop",
+  "park": "Yosemite National Park",
+  "distance_mi": 2.2,
+  "elevation_ft": 50,
+  "difficulty": "easy",
+  "features": [
+   "river",
+   "picnic",
+   "family-friendly"
+  ],
+  "description": "A flat valley loop crosses the Merced on its namesake bridge, with a sandbar beach that becomes the valley's favorite swimming spot in August. Yosemite Falls anchors the upstream view. Nothing here will tire anyone; it exists for lingering."
+ },
+ {
+  "id": "trail-0159",
+  "name": "Echo Canyon Route",
+  "park": "Zion National Park",
+  "distance_mi": 4.4,
+  "elevation_ft": 1350,
+  "difficulty": "hard",
+  "features": [
+   "canyon",
+   "slot",
+   "switchbacks"
+  ],
+  "description": "Sharing its start with the Observation Point switchbacks, the route ducks into a slot where the walls pinch to hallway width and the temperature drops ten degrees. Chockstones and scoured potholes make the canyon floor a playground for the agile. Flash-flood forecasts are non-negotiable homework here."
+ },
+ {
+  "id": "trail-0160",
+  "name": "Fork Ridge Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 10.2,
+  "elevation_ft": 2250,
+  "difficulty": "hard",
+  "features": [
+   "ridgeline",
+   "spruce-fir",
+   "solitude"
+  ],
+  "description": "Dropping off Clingmans Dome Road into the Deep Creek watershed, this descent-first route punishes the return trip with an unbroken climb through spruce dusk. Bear sign outnumbers boot prints in the soft tread. Silence up here has actual weight."
+ },
+ {
+  "id": "trail-0161",
+  "name": "Sun Point Nature Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 1.7,
+  "elevation_ft": 100,
+  "difficulty": "easy",
+  "features": [
+   "lake",
+   "viewpoint",
+   "interpretive"
+  ],
+  "description": "A rocky promontory over St. Mary Lake serves up the panorama that once fronted a grand hotel, long since dismantled. The shoreline path west adds Baring Falls for those with an extra half hour. Wind off the lake can be startling; hold hats and small children."
+ },
+ {
+  "id": "trail-0162",
+  "name": "Mount Ida Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 9.6,
+  "elevation_ft": 2465,
+  "difficulty": "hard",
+  "features": [
+   "summit",
+   "tundra",
+   "continental-divide",
+   "solitude"
+  ],
+  "description": "From Milner Pass the route rides the Divide's grassy spine almost entirely above treeline, with the Never Summer Mountains burning red across the valley. There is no shelter for miles when storms build, and they build most afternoons. The summit view down onto the Gorge Lakes is the park's best-kept non-secret."
+ },
+ {
+  "id": "trail-0163",
+  "name": "Witch Hole Pond Carriage Loop",
+  "park": "Acadia National Park",
+  "distance_mi": 3.3,
+  "elevation_ft": 180,
+  "difficulty": "easy",
+  "features": [
+   "pond",
+   "carriage-road",
+   "cycling",
+   "beaver"
+  ],
+  "description": "Broad gravel carriage road circles a lily-padded pond where beaver lodges rise like brush piles offshore. The grades were engineered for horses a century ago and remain kind to every knee since. Duck Brook Bridge, triple-arched and ornate, is the architectural highlight."
+ },
+ {
+  "id": "trail-0164",
+  "name": "Mystery Falls Terrace",
+  "park": "Zion National Park",
+  "distance_mi": 2.0,
+  "elevation_ft": 210,
+  "difficulty": "easy",
+  "features": [
+   "waterfall",
+   "river",
+   "narrows-entrance"
+  ],
+  "description": "The paved Riverside Walk ends where Mystery Canyon's outlet pours a delicate ribbon down a varnished wall into the Virgin River. Canyoneers rappel the final drop straight into the river some afternoons, an impromptu spectator sport. The walk itself is level, shaded, and lined with hanging gardens."
+ },
+ {
+  "id": "trail-0165",
+  "name": "Olmsted Point Ramble",
+  "park": "Yosemite National Park",
+  "distance_mi": 0.5,
+  "elevation_ft": 100,
+  "difficulty": "easy",
+  "features": [
+   "viewpoint",
+   "granite",
+   "glacial-erratics"
+  ],
+  "description": "A ten-minute descent over glacier-polished slabs reaches a viewpoint where Half Dome shows its unfamiliar northern profile. Glacial erratics balance on the bedrock exactly where the ice abandoned them. Marmots here are shameless and must not be fed, however persuasive."
+ },
+ {
+  "id": "trail-0166",
+  "name": "Preston Park Meadows Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 6.2,
+  "elevation_ft": 1350,
+  "difficulty": "moderate",
+  "features": [
+   "meadow",
+   "wildflowers",
+   "creek"
+  ],
+  "description": "Stopping short of Siyeh Pass's scree, this out-and-back targets the flower gardens themselves, acres of paintbrush, gentian, and beargrass beneath Matahpi Peak. The climb is steady but broken by creek crossings that invite dawdling. Late July hits peak bloom most years."
+ },
+ {
+  "id": "trail-0167",
+  "name": "Boogerman Loop",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 7.4,
+  "elevation_ft": 1150,
+  "difficulty": "moderate",
+  "features": [
+   "old-growth",
+   "history",
+   "creek-crossings"
+  ],
+  "description": "Named for a settler whose schoolhouse nickname stuck for life, the loop winds past his homesite through poplars he refused to log, now among the valley's largest. Split-log bridges cross Caldwell Fork more times than anyone bothers counting. Cataloochee's remoteness keeps the trail lightly walked."
+ },
+ {
+  "id": "trail-0168",
+  "name": "Black Lake via Glacier Gorge",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 10.4,
+  "elevation_ft": 1900,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "cascades",
+   "cirque"
+  ],
+  "description": "Past Mills Lake the crowds evaporate and the trail roughens, climbing beside Ribbon Falls' long white braid to a somber tarn beneath McHenrys Peak. The upper basin holds snow into July and shadows all day. This is the gorge's brooding, magnificent end of the line."
+ },
+ {
+  "id": "trail-0169",
+  "name": "Bar Island Sandbar Crossing",
+  "park": "Acadia National Park",
+  "distance_mi": 1.8,
+  "elevation_ft": 120,
+  "difficulty": "easy",
+  "features": [
+   "tidal",
+   "island",
+   "viewpoint"
+  ],
+  "description": "For ninety minutes either side of low tide, a gravel bar rises from the harbor and lets you walk to an island, climb to its modest summit, and look back at town. Misjudge the window and the ocean strands you for nine hours or sells you a very cold swim. Tide tables are posted at the ramp; believe them."
+ },
+ {
+  "id": "trail-0170",
+  "name": "Beargrass Bench Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 5.5,
+  "elevation_ft": 780,
+  "difficulty": "moderate",
+  "features": [
+   "wildflowers",
+   "forest",
+   "viewpoint"
+  ],
+  "description": "In big bloom years the namesake stalks crowd this bench like white torches, an event that happens on a rough five-to-seven-year rhythm. Between blooms it is a quiet forest climb to a ledge over the McDonald valley. The grade asks for effort in only two short pitches."
+ },
+ {
+  "id": "trail-0171",
+  "name": "Panorama Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 8.5,
+  "elevation_ft": 1300,
+  "difficulty": "hard",
+  "features": [
+   "waterfall-views",
+   "viewpoint",
+   "one-way-shuttle"
+  ],
+  "description": "Descending from Glacier Point, the trail passes Illilouette Fall, climbs to Panorama Point, then drops the Mist Trail's stone stairs past two more waterfalls to the valley floor. Most of its 3,200 downhill feet land on the knees; poles earn their weight. Ride the morning bus up and walk home."
+ },
+ {
+  "id": "trail-0172",
+  "name": "Huber Wash Petroglyph Route",
+  "park": "Zion National Park",
+  "distance_mi": 5.2,
+  "elevation_ft": 380,
+  "difficulty": "moderate",
+  "features": [
+   "desert",
+   "petroglyphs",
+   "solitude"
+  ],
+  "description": "A sandy wash in the park's forgotten southwest corner passes chert scatters and a panel of centuries-old rock markings that the map declines to label. Navigation is the wash itself; walls do the guiding. Touching the panels transfers oils that erase them, so hands stay in pockets."
+ },
+ {
+  "id": "trail-0173",
+  "name": "Injun Creek Manway",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 6.8,
+  "elevation_ft": 980,
+  "difficulty": "moderate",
+  "features": [
+   "history",
+   "creek",
+   "off-trail-feel",
+   "solitude"
+  ],
+  "description": "A faint unmaintained track follows the creek past the rusted boiler of a steam tractor that wrecked here in the 1920s and gave the stream its corrupted name. Expect blowdowns, nettles in July, and complete solitude. Old chimney stands appear in the woods like punctuation."
+ },
+ {
+  "id": "trail-0174",
+  "name": "Oldman Lake Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 11.8,
+  "elevation_ft": 1900,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "larch",
+   "solitude"
+  ],
+  "description": "The approach to Pitamakan Pass shelters a lake ringed by ancient whitebark pine and a stand of larch that goes molten gold in late September. Fall visits are the connoisseur's pick despite the shortening days. Grizzly diggings pockmark the meadows; keep the spray reachable, not buried."
+ },
+ {
+  "id": "trail-0175",
+  "name": "Holzwarth Historic Site Stroll",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 1.0,
+  "elevation_ft": 30,
+  "difficulty": "easy",
+  "features": [
+   "history",
+   "meadow",
+   "accessible",
+   "moose"
+  ],
+  "description": "A flat lane crosses the infant Colorado River to a preserved 1920s dude ranch where volunteers in period dress open the cabins each summer. The Kawuneeche Valley meadows on either side are the park's most dependable moose venue. Wheelchairs manage the packed surface without trouble."
+ },
+ {
+  "id": "trail-0176",
+  "name": "Porcupine Creek Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 4.6,
+  "elevation_ft": 640,
+  "difficulty": "moderate",
+  "features": [
+   "forest",
+   "creek",
+   "solitude"
+  ],
+  "description": "A former roadbed narrows into pleasant single-track through red fir toward the north rim junctions. Deer browse the dogwood at dawn, and the creek chatters alongside for the middle mile. It mostly serves as a corridor to bigger things, which keeps it quiet."
+ },
+ {
+  "id": "trail-0177",
+  "name": "Schoodic Shore Loop",
+  "park": "Acadia National Park",
+  "distance_mi": 2.8,
+  "elevation_ft": 160,
+  "difficulty": "easy",
+  "features": [
+   "coastline",
+   "dog-friendly",
+   "solitude",
+   "birding"
+  ],
+  "description": "Across the bay from the busy island, the Schoodic Peninsula offers this shoreline circuit of jack pine and thundering ledges where leashed dogs are welcome. Harlequin ducks work the surf line through winter. Even in August you can find a cove to yourself here."
+ },
+ {
+  "id": "trail-0178",
+  "name": "Lincoln Lake Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 16.0,
+  "elevation_ft": 2350,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "waterfall-adjacent",
+   "deep-solitude"
+  ],
+  "description": "A long forested grind over a ridge delivers one of the park's least-visited lakes, where Beaver Chief Falls drops nearly 1,300 feet at the far shore. The trail sees so little traffic that spider webs across the tread are the morning toll. Strong hikers only, and even they should start early."
+ },
+ {
+  "id": "trail-0179",
+  "name": "Goldmine Loop Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 3.1,
+  "elevation_ft": 560,
+  "difficulty": "moderate",
+  "features": [
+   "tunnel",
+   "history",
+   "lakeshore"
+  ],
+  "description": "Starting through the quarter-mile unfinished highway tunnel that gave the Road to Nowhere its name, the loop drops past old homesites to a finger of Fontana Lake. Bring a light for the tunnel; the middle is genuinely black. The story of the flooded road communities is the real cargo here."
+ },
+ {
+  "id": "trail-0180",
+  "name": "West Bank Panorama Trail",
+  "park": "Zion National Park",
+  "distance_mi": 6.0,
+  "elevation_ft": 820,
+  "difficulty": "moderate",
+  "features": [
+   "viewpoint",
+   "desert",
+   "sunrise"
+  ],
+  "description": "Climbing the canyon's western benches, this route watches first light ignite the east-facing walls from the Watchman to the Sentinel. The tread alternates slickrock and sand at grades that stay conversational. Carry more water than the mileage implies; the west side gets morning sun and keeps it."
+ },
+ {
+  "id": "trail-0181",
+  "name": "Chilnualna Creek Cascades Path",
+  "park": "Yosemite National Park",
+  "distance_mi": 1.4,
+  "elevation_ft": 300,
+  "difficulty": "easy",
+  "features": [
+   "cascades",
+   "granite",
+   "family-friendly"
+  ],
+  "description": "The first stretch of the falls trail reaches a lively series of chutes and slides close enough to Wawona for an after-dinner walk. Granite steps carved beside the cascade give it a storybook quality. Turn back where the switchbacks begin and it stays comfortably gentle."
+ },
+ {
+  "id": "trail-0182",
+  "name": "Camas Creek Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 7.0,
+  "elevation_ft": 600,
+  "difficulty": "moderate",
+  "features": [
+   "burn-zone",
+   "meadow",
+   "wildlife",
+   "solitude"
+  ],
+  "description": "Through the mosaic of the Robert Fire, this quiet valley path threads regenerating lodgepole thick as dog hair and openings loud with woodpeckers. Wolves den in this drainage some years, and tracks in the dust are common even when their makers stay hidden. The grade barely registers; the wildness does."
+ },
+ {
+  "id": "trail-0183",
+  "name": "Ouzel Lake Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 9.9,
+  "elevation_ft": 1530,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "burn-zone",
+   "solitude",
+   "fishing"
+  ],
+  "description": "Beyond Ouzel Falls the crowd vanishes and the trail rolls through the 1978 burn's flowered openings to a marshy lake below Copeland Mountain. Greenback cutthroat trout, once thought extinct, cruise the shallows. The gain spreads across so many miles it never quite feels like climbing."
+ },
+ {
+  "id": "trail-0184",
+  "name": "Day Mountain Carriage Ascent",
+  "park": "Acadia National Park",
+  "distance_mi": 4.2,
+  "elevation_ft": 580,
+  "difficulty": "moderate",
+  "features": [
+   "carriage-road",
+   "summit",
+   "viewpoint"
+  ],
+  "description": "The only carriage road in the system that climbs to a summit spirals up Day Mountain in wide, patient loops. Horse-drawn carriages still make the ascent on summer afternoons, bells announcing the turns. Ocean views open southward across the Cranberry Isles near the top."
+ },
+ {
+  "id": "trail-0185",
+  "name": "Walker Sisters Homestead Trail",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 3.4,
+  "elevation_ft": 430,
+  "difficulty": "easy",
+  "features": [
+   "history",
+   "homestead",
+   "family-friendly"
+  ],
+  "description": "A gated gravel lane climbs mildly to the cabin where five sisters famously refused electricity, plumbing, and the twentieth century until 1964. The springhouse and corn crib still stand as they left them. School groups love it, and the walking never becomes work."
+ },
+ {
+  "id": "trail-0186",
+  "name": "Snyder Lake Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 8.8,
+  "elevation_ft": 2050,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "forest",
+   "cirque"
+  ],
+  "description": "Sharing its start with the chalet crowds, this quieter fork climbs steadily through hemlock to a small lake pinned beneath a horseshoe of cliffs. The trail's rhythm is unglamorous, forested, and honest, and the payoff arrives all at once at the shoreline. Watch for harlequin ducks in the outlet current."
+ },
+ {
+  "id": "trail-0187",
+  "name": "Dog Lake Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 2.8,
+  "elevation_ft": 640,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "swimming",
+   "alpine"
+  ],
+  "description": "Despite the name, pets are prohibited; the lake honors a stray sheepdog an early surveyor found here. The stiff first half mile settles into an amble ending at the warmest swimming water in the high country. Afternoon sun on the northeast shore makes toweling off optional."
+ },
+ {
+  "id": "trail-0188",
+  "name": "Right Fork Slickrock Route",
+  "park": "Zion National Park",
+  "distance_mi": 10.8,
+  "elevation_ft": 1150,
+  "difficulty": "hard",
+  "features": [
+   "canyon",
+   "creek",
+   "route-finding",
+   "solitude"
+  ],
+  "description": "The Right Fork demands boulder-hopping, wading, and patience, repaying each with pools, chutes, and a double waterfall at Barrier Falls where most travelers turn around. No trail exists in the formal sense. Parties comfortable with all-day scrambling find one of the park's emptiest corridors."
+ },
+ {
+  "id": "trail-0189",
+  "name": "Toll Memorial Rock Cut Walk",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 1.2,
+  "elevation_ft": 210,
+  "difficulty": "easy",
+  "features": [
+   "tundra",
+   "viewpoint",
+   "interpretive"
+  ],
+  "description": "From the Rock Cut parking area a paved path rises gently through tundra to a summit marker naming every peak on the skyline. Pikas squeak from the talus like rusty hinges. The altitude, not the grade, is the only obstacle, and benches accommodate the winded."
+ },
+ {
+  "id": "trail-0190",
+  "name": "Harrison Lake Route",
+  "park": "Glacier National Park",
+  "distance_mi": 10.0,
+  "elevation_ft": 900,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "ford",
+   "deep-solitude"
+  ],
+  "description": "Access requires fording the Middle Fork of the Flathead, which keeps this southern valley effectively private after spring runoff drops. Beyond the ford, gentle trail rolls through cedar bottoms to a long green lake under Mount Jackson. Check river levels; the crossing is the entire crux."
+ },
+ {
+  "id": "trail-0191",
+  "name": "Roaring Fork Falls Ramble",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 2.5,
+  "elevation_ft": 480,
+  "difficulty": "moderate",
+  "features": [
+   "cascades",
+   "mill-history",
+   "forest"
+  ],
+  "description": "From the motor nature trail, a rooty path climbs beside a stream that lives up to its name after every rain. A preserved tub mill and the Bales place mark the settlement era. Thousand Drips Falls at the road's end goes from trickle to spectacle depending entirely on the week's weather."
+ },
+ {
+  "id": "trail-0192",
+  "name": "Long Pond Fire Road Loop",
+  "park": "Acadia National Park",
+  "distance_mi": 5.0,
+  "elevation_ft": 240,
+  "difficulty": "easy",
+  "features": [
+   "pond",
+   "forest",
+   "cycling",
+   "solitude"
+  ],
+  "description": "Wide, soft fire roads circle the island's largest freshwater pond through hemlock shade that holds cool air all summer. Loons nest in the northern coves and scold passing canoes. The gentle rolling grade suits trail-a-bikes and conversation."
+ },
+ {
+  "id": "trail-0193",
+  "name": "Ostrander Lake Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 12.4,
+  "elevation_ft": 1550,
+  "difficulty": "hard",
+  "features": [
+   "lake",
+   "ski-hut",
+   "solitude"
+  ],
+  "description": "Half old roadbed and half single-track, the route runs through fire-mosaic forest to a granite-basin lake with a stone ski hut on its shore. Winter transforms it into the park's classic backcountry ski tour, hut bunks awarded by lottery. Summer visitors are few and tend to be repeat customers."
+ },
+ {
+  "id": "trail-0194",
+  "name": "Clear Creek Confluence Trail",
+  "park": "Zion National Park",
+  "distance_mi": 3.2,
+  "elevation_ft": 280,
+  "difficulty": "easy",
+  "features": [
+   "creek",
+   "canyon",
+   "family-friendly"
+  ],
+  "description": "East of the tunnel, a sandy path follows Clear Creek's shallow braids between slickrock domes striped like taffy. Children wade the ankle-deep water while adults study the crossbedding. Grades are negligible; sun exposure is not, so mornings win."
+ },
+ {
+  "id": "trail-0195",
+  "name": "Fifty Mountain Traverse",
+  "park": "Glacier National Park",
+  "distance_mi": 20.4,
+  "elevation_ft": 3400,
+  "difficulty": "hard",
+  "features": [
+   "backcountry",
+   "alpine",
+   "pass",
+   "multi-day"
+  ],
+  "description": "The northern Highline's crown jewel crosses a plateau where, as the name promises, mountains crowd the horizon in every direction. Nearly all who come do so with overnight permits; as a day effort it borders on the absurd. Wolverine sightings, while rare, happen here more than anywhere else in the park."
+ },
+ {
+  "id": "trail-0196",
+  "name": "Fern Lake Trail",
+  "park": "Rocky Mountain National Park",
+  "distance_mi": 7.6,
+  "elevation_ft": 1375,
+  "difficulty": "moderate",
+  "features": [
+   "lake",
+   "river",
+   "burn-zone"
+  ],
+  "description": "The trail follows the Big Thompson past The Pool's carved granite bowl, then climbs through fire-opened forest to a lake tucked under Joe Mills Mountain. Arch Rocks' house-sized boulders lean over the lower path. October brings elk bugling to the moraine meadows near the trailhead."
+ },
+ {
+  "id": "trail-0197",
+  "name": "Shuckstack Fire Tower via AT",
+  "park": "Great Smoky Mountains National Park",
+  "distance_mi": 7.0,
+  "elevation_ft": 2120,
+  "difficulty": "hard",
+  "features": [
+   "fire-tower",
+   "viewpoint",
+   "AT-section"
+  ],
+  "description": "From Fontana Dam the AT climbs without mercy to a rickety 1934 fire tower whose stairs are not for the wobbly. The reward is a raptor's view of Fontana Lake threading the mountains. Thru-hikers streaming north in April make the trail sociable; the rest of the year it is stern and quiet."
+ },
+ {
+  "id": "trail-0198",
+  "name": "McGurk Meadow Trail",
+  "park": "Yosemite National Park",
+  "distance_mi": 1.6,
+  "elevation_ft": 150,
+  "difficulty": "easy",
+  "features": [
+   "meadow",
+   "wildflowers",
+   "historic-cabin"
+  ],
+  "description": "A gentle descent off Glacier Point Road reaches a pioneer cabin and a mile-long meadow that hosts the park's best shooting-star bloom in early July. The path is soft duff nearly the whole way. Few walks this rewarding demand this little."
+ },
+ {
+  "id": "trail-0199",
+  "name": "Pemetic Northwest Ledges",
+  "park": "Acadia National Park",
+  "distance_mi": 2.6,
+  "elevation_ft": 890,
+  "difficulty": "hard",
+  "features": [
+   "summit",
+   "ledges",
+   "viewpoint"
+  ],
+  "description": "The steepest common route up Pemetic scrambles through a boulder ravine with a ladder section before breaking onto open summit ledges. Jordan Pond and the Bubbles arrange themselves below like a scale model. Wet granite here demands real footwear, not sneakers."
+ },
+ {
+  "id": "trail-0200",
+  "name": "Upper McDonald Creek Trail",
+  "park": "Glacier National Park",
+  "distance_mi": 5.8,
+  "elevation_ft": 350,
+  "difficulty": "easy",
+  "features": [
+   "creek",
+   "old-growth",
+   "birding",
+   "solitude"
+  ],
+  "description": "Across the creek from the busy road, this soft path drifts through cedar bottoms where harlequin ducks ride the rapids each spring. The grade is so slight that cross-country skiers favor it all winter. Sacred Dancing Cascade and a quiet string of pools mark the turnaround for most."
+ }
+]

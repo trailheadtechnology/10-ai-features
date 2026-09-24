@@ -1,0 +1,16 @@
+{
+  "_comment": "Canned responses for the check_campsites tool. Availability by park; the agent should discover that Sperry is full mid-September and route to alternatives.",
+  "Glacier National Park": [
+    { "campground": "Avalanche Creek Campground", "type": "frontcountry", "sites_available": { "2026-09-13": 6, "2026-09-14": 4, "2026-09-15": 2, "2026-09-16": 5, "2026-09-17": 8 }, "amenities": ["potable water", "flush toilets", "bear boxes"], "note": "Closes for season Sept 20." },
+    { "campground": "Sperry Chalet Area Sites", "type": "backcountry", "sites_available": { "2026-09-13": 0, "2026-09-14": 0, "2026-09-15": 0, "2026-09-16": 1, "2026-09-17": 1 }, "amenities": ["pit toilet", "no fires permitted"], "note": "Backcountry permit required. Wood fires prohibited year-round." },
+    { "campground": "Many Glacier Campground", "type": "frontcountry", "sites_available": { "2026-09-13": 1, "2026-09-14": 0, "2026-09-15": 3, "2026-09-16": 7, "2026-09-17": 9 }, "amenities": ["potable water", "flush toilets", "bear boxes"], "note": "High demand; fills by mid-morning." },
+    { "campground": "Lake McDonald Backcountry Sites", "type": "backcountry", "sites_available": { "2026-09-13": 2, "2026-09-14": 3, "2026-09-15": 3, "2026-09-16": 4, "2026-09-17": 4 }, "amenities": ["pit toilet", "food hang poles"], "note": "Backcountry permit required." }
+  ],
+  "Yosemite National Park": [
+    { "campground": "Upper Pines Campground", "type": "frontcountry", "sites_available": { "2026-09-13": 0, "2026-09-14": 0, "2026-09-15": 1, "2026-09-16": 2 }, "amenities": ["potable water", "flush toilets", "bear boxes"], "note": "Reservation only." },
+    { "campground": "Little Yosemite Valley", "type": "backcountry", "sites_available": { "2026-09-13": 5, "2026-09-14": 6, "2026-09-15": 6, "2026-09-16": 6 }, "amenities": ["composting toilet", "bear boxes"], "note": "Wilderness permit required." }
+  ],
+  "Zion National Park": [
+    { "campground": "Watchman Campground", "type": "frontcountry", "sites_available": { "2026-09-13": 3, "2026-09-14": 2, "2026-09-15": 4, "2026-09-16": 6 }, "amenities": ["potable water", "flush toilets"], "note": "Reservation strongly recommended." }
+  ]
+}
