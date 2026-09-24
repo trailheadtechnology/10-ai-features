@@ -1,4 +1,4 @@
-# Pragmatic AI in .NET: Bringing Intelligent Features to Existing Apps
+# Pragmatic AI in .NET: 10 AI Features Users Want in Your .NET Apps
 Talk by Jonathan "J." Tower
 
 Many teams and stakeholders want to add AI features to their applications, but quickly discover that real, reliable functionality takes more than a simple call to an LLM. This session focuses on practical, production-ready ways to bring intelligent capabilities to existing .NET applications without hype or unnecessary complexity.
