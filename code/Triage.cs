@@ -11,20 +11,39 @@ static partial class Triage
         var options = new ChatOptions { Temperature = 0 };
 
         var results = new List<(Inquiry Inquiry, Category Category)>();
+        var queues = Enum.GetValues<Category>().Select(Route).Distinct()
+            .ToDictionary(q => q, q => new List<Inquiry>());
         foreach (var inquiry in LoadInquiries())
         {
-            // The answer can only be a Category: a label with no queue
-            // behind it cannot come back.
+            // Only a Category can come back: every label has a queue.
             var response = await client.GetResponseAsync<TriageResult>(
                 Prompt(inquiry.text), options);
+            var queue = Route(response.Result.Category);
+            queues[queue].Add(inquiry);   // the label picks the queue
             results.Add((inquiry, response.Result.Category));
-            Show(inquiry, response.Result.Category);
-        }
 
+            if (queue == "dispatch") Page(inquiry);
+            Show(inquiry, response.Result.Category, queue);
+        }
+        ShowQueues(queues);
+
+        // Not part of the app: the same run scored against hand labels.
         // Accuracy is the headline. Emergency recall decides whether it ships:
         // a missed emergency is a person waiting in a queue nobody watches.
         Score(results);
     }
+
+    // The routing: one queue per label.
+    static string Route(Category category) => category switch
+    {
+        Category.Emergency => "dispatch",
+        Category.Permit => "permits-office",
+        Category.Conditions => "trail-info-desk",
+        Category.Complaint => "visitor-services",
+        Category.LostAndFound => "lost-and-found-desk",
+        Category.General => "front-desk",
+        _ => "human-review",   // unsure: a ranger reads it and picks the queue
+    };
 }
 
 // The model can only return one of these.
@@ -95,11 +114,22 @@ static partial class Triage
         File.ReadLines(Clients.Data("triage/inquiries-slice.jsonl"))
             .Select(line => JsonSerializer.Deserialize<Inquiry>(line)!);
 
-    static void Show(Inquiry inquiry, Category category)
+    static void Show(Inquiry inquiry, Category category, string queue)
     {
         var flag = category == Category.Emergency ? "!!!" : "   ";
-        var queue = Reference.Routing[Wire(category)].Split(" (")[0];
-        Console.WriteLine($"{flag} {inquiry.id,-9} {Wire(category),-15} -> {queue,-28} {Clip(inquiry.text, 48)}");
+        Console.WriteLine($"{flag} {inquiry.id,-9} {Wire(category),-15} -> {queue,-20} {Clip(inquiry.text, 48)}");
+    }
+
+    // An emergency does not wait for anyone to open a queue.
+    static void Page(Inquiry inquiry) =>
+        Console.WriteLine($"\u001b[31m!!! PAGE duty ranger: {inquiry.id} ({inquiry.channel}, {inquiry.received})\u001b[0m");
+
+    static void ShowQueues(Dictionary<string, List<Inquiry>> queues)
+    {
+        Console.WriteLine();
+        Console.WriteLine("-- queues --");
+        foreach (var (queue, items) in queues.Where(q => q.Value.Count > 0).OrderByDescending(q => q.Key == "dispatch").ThenByDescending(q => q.Value.Count))
+            Console.WriteLine($"  {queue,-20} {items.Count,2}  {string.Join(" ", items.Select(i => i.id))}");
     }
 
     static void Score(List<(Inquiry Inquiry, Category Category)> results)
@@ -109,6 +139,7 @@ static partial class Triage
         var caught = results.Count(r => r.Category == Category.Emergency && emergencyIds.Contains(r.Inquiry.id));
 
         Console.WriteLine();
+        Console.WriteLine("-- evaluation: hand labels, not part of the app --");
         Console.WriteLine($"Accuracy vs reference labels: {correct}/{results.Count}");
         Console.WriteLine($"Emergency recall: {caught}/{emergencyIds.Count} " +
             (caught == emergencyIds.Count ? "(all caught; the metric that matters)" : "(MISSED ONE; this fails, whatever the accuracy says)"));
@@ -128,6 +159,5 @@ static partial class Triage
     record Inquiry(string id, string channel, string received, string text);
 
     record ReferenceLabels(
-        [property: JsonPropertyName("routing")] Dictionary<string, string> Routing,
         [property: JsonPropertyName("labels")] Dictionary<string, string> Labels);
 }

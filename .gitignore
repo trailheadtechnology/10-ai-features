@@ -4,3 +4,9 @@ obj/
 .DS_Store
 __pycache__/
 slides/
+code/extracted.json
+code/rejected.json
+# Keys never live in the repo; these catch a stray copy.
+.env*
+*.key
+secrets.json

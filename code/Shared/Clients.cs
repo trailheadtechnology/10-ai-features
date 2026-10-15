@@ -25,7 +25,7 @@ static class Clients
     const string Endpoint = "https://trailhead-ai-workshop.openai.azure.com";
 
     // The key never lives in source, because this code goes up on a projector.
-    // `dotnet user-secrets set Foundry:Key <key>` first, AZURE_OPENAI_KEY second.
+    // `./key.sh set` stores it in user-secrets; AZURE_OPENAI_KEY is the fallback.
     static string Key
     {
         get
@@ -37,7 +37,7 @@ static class Clients
             var key = config["Foundry:Key"] ?? config["AZURE_OPENAI_KEY"];
             return string.IsNullOrWhiteSpace(key)
                 ? throw new InvalidOperationException(
-                    "No Foundry key. Run: dotnet user-secrets set Foundry:Key <key>")
+                    "No Foundry key. Run: ./key.sh set")
                 : key;
         }
     }

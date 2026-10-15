@@ -1,5 +1,5 @@
 // Four demos from the talk, one per command:
-//   dotnet run -- extract                  trip report in, validated record out
+//   dotnet run -- extract                  20 trip reports to JSON, rejects in red
 //   dotnet run -- rag --ungrounded         the question, no documents: it cannot know
 //   dotnet run -- rag ["question"]         the same question, grounded and cited
 //   dotnet run -- triage                   20 inquiries routed, emergency recall scored

@@ -158,7 +158,7 @@ static partial class Agent
     const string DefaultRequest =
         "Plan me a 3-day backpacking trip in Glacier National Park for " +
         "September 14-16, camping at backcountry sites, that includes the " +
-        "Avalanche Lake Trail (trail-0117).";
+        "Avalanche Lake Trail.";
 
     const string SystemPrompt = """
         You are the trip-planning agent for Trailhead Guides, a hiking app.

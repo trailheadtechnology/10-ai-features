@@ -1,5 +1,6 @@
 using System.ComponentModel;
 using System.Globalization;
+using System.Text.Json;
 using Microsoft.Extensions.AI;
 
 static partial class Extract
@@ -7,27 +8,54 @@ static partial class Extract
     public static async Task Run()
     {
         IChatClient client = Clients.Local("llama3.2");
+        // Same report, same record, every run. The token cap stops a model
+        // that has started repeating itself; the record never needs more.
+        var options = new ChatOptions { Temperature = 0, MaxOutputTokens = 400 };
+        var stored = new List<object>();
+        var rejected = new List<object>();
 
-        foreach (var file in new[] { "tr-0007.md", "tr-0011.md" })
+        // The backlog nobody will re-type. The first 20 keep the demo
+        // under a minute; drop the Take to run all 40.
+        foreach (var file in Directory.GetFiles(Clients.Data("extract"), "tr-*.md").Order().Take(20))
         {
-            var report = await Load(file);
+            var (report, posted) = await Load(file);
+            var id = Path.GetFileNameWithoutExtension(file);
 
             // Prose in, typed object out. The record is the schema.
-            var response = await client.GetResponseAsync<TripFacts>($"""
-                Extract the trail facts from this trip report.
+            ChatResponse<TripFacts> response;
+            try
+            {
+                response = await client.GetResponseAsync<TripFacts>($"""
+                Extract the trail facts from this trip report, posted {posted}.
                 Use null for any field the report does not state,
                 and empty arrays when nothing applies. Do not guess.
 
                 {report}
-                """);
+                """, options);
+                _ = response.Result;
+            }
+            catch (Exception e) when (e is JsonException or InvalidOperationException)
+            {
+                // Not JSON at all: nothing to validate, nothing to store.
+                ShowFailure(id, "failed to parse: the model's output was not a TripFacts record");
+                rejected.Add(new { id, field = "(all)", value = (string?)null, reason = "failed to parse" });
+                continue;
+            }
             TripFacts raw = response.Result;
-            Show("what the model gave us", raw);
 
             // The schema guarantees it parses, not that it is true.
             var verdicts = Validate(raw, report);
-            ShowVerdicts(verdicts);
-            Show("what we would store", Clean(raw, verdicts));
+            ShowRow(id, raw, verdicts);
+            stored.Add(new { id, facts = Clean(raw, verdicts) });
+            rejected.AddRange(verdicts.Where(v => !v.Passed)
+                .Select(v => new { id, field = v.Field, value = v.Value, reason = v.Reason }));
         }
+
+        Save("extracted.json", stored);
+        Save("rejected.json", rejected);
+        var failed = rejected.Count(r => ((dynamic)r).field == "(all)");
+        Console.WriteLine($"\n{stored.Count + failed} reports: {stored.Count} -> extracted.json, " +
+            $"{failed} failed to parse, {rejected.Count - failed} rejected fields stored as null (rejected.json)");
     }
 }
 
@@ -39,7 +67,7 @@ record TripFacts(
     string? TrailName,
     [property: Description("The park the trail is in. null if the report never names the park.")]
     string? Park,
-    [property: Description("The date of the hike in YYYY-MM-DD format. null if the report does not give an exact date. Never guess or infer a date.")]
+    [property: Description("The date of the hike in YYYY-MM-DD format. A month and day with no year take the year the report was posted. null if the report gives no exact day; never guess one.")]
     string? DateHiked,
     [property: Description("Round-trip distance in miles, as stated in the report. null, never 0, if the report gives no distance. Never estimate.")]
     double? DistanceMi,
@@ -167,45 +195,45 @@ static partial class Extract
         (items ?? []).Where(s => !string.IsNullOrWhiteSpace(s)).Select(s => s.Trim()).ToArray();
 
     // ---------------------------------------------------------------------------
-    // Loading and printing.
+    // Loading, printing, and saving.
     // ---------------------------------------------------------------------------
-    static async Task<string> Load(string file)
+    // The body is what the hiker wrote. The front matter is what the app
+    // already knows, and the posting date is what gives "July 19th" a year.
+    static async Task<(string Text, string Posted)> Load(string file)
     {
-        Console.WriteLine($"== {file} ==  (asking llama3.2...)");
-        var markdown = await File.ReadAllTextAsync(Clients.Data($"extract/{file}"));
+        var markdown = await File.ReadAllTextAsync(file);
         var parts = markdown.Split("---", 3, StringSplitOptions.None);
-        return parts.Length == 3 ? parts[2].Trim() : markdown.Trim();
+        var posted = parts[1].Split('\n').First(l => l.StartsWith("date:"))["date:".Length..].Trim();
+        return (parts[2].Trim(), posted);
     }
 
-    static void Show(string heading, TripFacts f)
+    // One line of JSON per report, as the model returned it. A field the
+    // validator rejected prints in red, with the reason underneath.
+    static void ShowRow(string id, TripFacts f, List<Verdict> verdicts)
     {
-        Console.WriteLine();
-        Console.WriteLine($"-- {heading} --");
-        Console.WriteLine($"  trail:      {f.TrailName ?? "null"}");
-        Console.WriteLine($"  park:       {f.Park ?? "null"}");
-        Console.WriteLine($"  date:       {f.DateHiked ?? "null"}");
-        Console.WriteLine($"  distance:   {f.DistanceMi?.ToString("0.#") ?? "null"} mi");
-        Console.WriteLine($"  elev gain:  {f.ElevationGainFt?.ToString("0") ?? "null"} ft");
-        Console.WriteLine($"  wildlife:   [{string.Join(", ", f.Wildlife ?? [])}]");
-        Console.WriteLine($"  conditions: [{string.Join(", ", f.Conditions ?? [])}]");
-        Console.WriteLine($"  hazards:    [{string.Join(", ", f.Hazards ?? [])}]");
-        if (heading.StartsWith("what we would store")) Console.WriteLine();
-    }
-
-    static void ShowVerdicts(List<Verdict> verdicts)
-    {
-        Console.WriteLine();
-        Console.WriteLine("-- what the validator says --");
-        foreach (var v in verdicts)
+        const string Red = "\u001b[31m", Reset = "\u001b[0m";
+        string Field(string name, object? value)
         {
-            var mark = v.Passed ? "PASS  " : "REJECT";
-            Console.WriteLine($"  {mark}  {v.Field,-18} {v.Value ?? "null"}");
-            if (!v.Passed)
-                Console.WriteLine($"          reason: {v.Reason}");
-            else if (v.Normalized is not null && v.Normalized != v.Value)
-                Console.WriteLine($"          normalized to: {v.Normalized}");
+            var json = $"\"{name}\": {JsonSerializer.Serialize(value)}";
+            return verdicts.Any(v => v.Field == name && !v.Passed) ? Red + json + Reset : json;
         }
+
+        Console.WriteLine($"{id}  {{{string.Join(", ",
+            Field("trail_name", f.TrailName),
+            Field("park", f.Park),
+            Field("date_hiked", f.DateHiked),
+            Field("distance_mi", f.DistanceMi),
+            Field("elevation_gain_ft", f.ElevationGainFt),
+            Field("hazards", f.Hazards ?? []))}}}");
+        foreach (var v in verdicts.Where(v => !v.Passed))
+            Console.WriteLine($"{Red}         x {v.Field}: {v.Reason}{Reset}");
     }
+
+    static void ShowFailure(string id, string reason) =>
+        Console.WriteLine($"{id}  \u001b[31m{reason}\u001b[0m");
+
+    static void Save(string file, object rows) =>
+        File.WriteAllText(file, JsonSerializer.Serialize(rows, new JsonSerializerOptions { WriteIndented = true }));
 }
 
 record Verdict(string Field, string? Value, bool Passed, string? Reason)
