@@ -38,12 +38,6 @@ curl -s "$OLLAMA/api/generate" -d '{"model":"llama3.2","keep_alive":-1}' >/dev/n
 curl -s "$OLLAMA/api/embed" -d '{"model":"nomic-embed-text","input":"warm","keep_alive":-1}' >/dev/null && ok "nomic-embed-text loaded"
 dotnet run --no-build -- triage >/dev/null 2>&1 && ok "triage ran once" || fail "triage failed: dotnet run -- triage"
 
-if grep -q "commercial photography" Triage.cs; then
-  fail "Triage.cs still has the inq-0030 fix from last time: undo it so the demo starts at 17/20"
-else
-  ok "Triage.cs is back to the 17/20 starting point"
-fi
-
 echo
 [ "$FAILED" = 0 ] && echo "Ready." || echo "Fix the FAIL lines above."
 exit "$FAILED"

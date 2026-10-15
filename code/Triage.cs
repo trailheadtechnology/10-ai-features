@@ -73,7 +73,8 @@ static partial class Triage
 
         - permit: reserving, changing, canceling, or paying for a permit, pass,
           or reservation, including billing problems and missing confirmations
-          for a permit application.
+          for a permit application, and asking whether an activity such as
+          commercial photography needs a special use permit.
         - conditions: asking whether a trail, road, or area is open, safe, or
           passable right now: snow, water levels, washouts, wildlife activity,
           closures.

@@ -18,7 +18,7 @@ static partial class Extract
         // under a minute; drop the Take to run all 40.
         foreach (var file in Directory.GetFiles(Clients.Data("extract"), "tr-*.md").Order().Take(20))
         {
-            var (report, posted) = await Load(file);
+            var (report, posted, park) = await Load(file);
             var id = Path.GetFileNameWithoutExtension(file);
 
             // Prose in, typed object out. The record is the schema.
@@ -46,7 +46,7 @@ static partial class Extract
             // The schema guarantees it parses, not that it is true.
             var verdicts = Validate(raw, report);
             ShowRow(id, raw, verdicts);
-            stored.Add(new { id, facts = Clean(raw, verdicts) });
+            stored.Add(new { id, park, facts = Clean(raw, verdicts) });
             rejected.AddRange(verdicts.Where(v => !v.Passed)
                 .Select(v => new { id, field = v.Field, value = v.Value, reason = v.Reason }));
         }
@@ -65,8 +65,6 @@ static partial class Extract
 record TripFacts(
     [property: Description("The name of the trail hiked. null if the report never names the trail.")]
     string? TrailName,
-    [property: Description("The park the trail is in. null if the report never names the park.")]
-    string? Park,
     [property: Description("The date of the hike in YYYY-MM-DD format. A month and day with no year take the year the report was posted. null if the report gives no exact day; never guess one.")]
     string? DateHiked,
     [property: Description("Round-trip distance in miles, as stated in the report. null, never 0, if the report gives no distance. Never estimate.")]
@@ -90,7 +88,6 @@ static partial class Extract
     [
         // A name the source text never contains does not get to be a fact.
         Grounded("trail_name", f.TrailName, sourceText),
-        Grounded("park", f.Park, sourceText),
         ValidDate("date_hiked", f.DateHiked),
 
         // 0 is the dangerous near-miss: it is a value, so a pipeline stores it
@@ -181,7 +178,6 @@ static partial class Extract
         return f with
         {
             TrailName = Ok("trail_name") ? f.TrailName?.Trim() : null,
-            Park = Ok("park") ? f.Park?.Trim() : null,
             DateHiked = Ok("date_hiked") ? V("date_hiked").Normalized ?? f.DateHiked?.Trim() : null,
             DistanceMi = Ok("distance_mi") ? f.DistanceMi : null,
             ElevationGainFt = Ok("elevation_gain_ft") ? f.ElevationGainFt : null,
@@ -198,13 +194,15 @@ static partial class Extract
     // Loading, printing, and saving.
     // ---------------------------------------------------------------------------
     // The body is what the hiker wrote. The front matter is what the app
-    // already knows, and the posting date is what gives "July 19th" a year.
-    static async Task<(string Text, string Posted)> Load(string file)
+    // already knows: the hiker picked the park when they posted, so it is
+    // never asked of the model, and the posting date gives "July 19th" a year.
+    static async Task<(string Text, string Posted, string Park)> Load(string file)
     {
         var markdown = await File.ReadAllTextAsync(file);
         var parts = markdown.Split("---", 3, StringSplitOptions.None);
-        var posted = parts[1].Split('\n').First(l => l.StartsWith("date:"))["date:".Length..].Trim();
-        return (parts[2].Trim(), posted);
+        string Meta(string key) =>
+            parts[1].Split('\n').First(l => l.StartsWith(key + ":"))[(key.Length + 1)..].Trim();
+        return (parts[2].Trim(), Meta("date"), Meta("park"));
     }
 
     // One line of JSON per report, as the model returned it. A field the
@@ -220,7 +218,6 @@ static partial class Extract
 
         Console.WriteLine($"{id}  {{{string.Join(", ",
             Field("trail_name", f.TrailName),
-            Field("park", f.Park),
             Field("date_hiked", f.DateHiked),
             Field("distance_mi", f.DistanceMi),
             Field("elevation_gain_ft", f.ElevationGainFt),
